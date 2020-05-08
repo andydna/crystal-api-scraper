@@ -1,13 +1,25 @@
 require 'nokogiri'
 require 'open-uri'
 
-CrystalMethod = Struct.new(:signature, :summary, keyword_init: true)
+module Crystal
 
-class CrystalApiScraper
-  XPATH = { 'MethodList' => '//ul[@class="list-summary"]',
+Method = Struct.new(:signature, :summary, keyword_init: true)
+
+class ApiScraper
+  XPATH = { 'TypesList'   =>'//div[@class="types-list"]/ul/li/a', 
+            'MethodList' => '//ul[@class="list-summary"]',
             'Method'     => './li[@class="entry-summary"]',
             'Signature'  => './a',
             'Summary'    => './div' }
+
+  def self.fill_cache
+  end
+
+  def self.types
+    new('Class').send(:noko)
+                .xpath(XPATH['TypesList'])
+                .map { |type| type.text }
+  end
 
   def initialize(klass)
     @klass = klass
@@ -44,7 +56,7 @@ class CrystalApiScraper
 
   def extract_crystal_method
     Proc.new do |method_summary, scope|
-      @scopes[scope] << CrystalMethod.new(
+      @scopes[scope] << Method.new(
        signature: method_summary.xpath(XPATH['Signature']).inner_text,
        summary:   method_summary.xpath(XPATH['Summary']).inner_text)
     end
@@ -55,11 +67,11 @@ class CrystalApiScraper
   end
 
   def noko
-    Nokogiri.HTML(html)
+    @noko ||= Nokogiri.HTML(html)
   end
 
   def html
-    cached? ? cache : URI.open(url, &read_io)
+    @html ||= cached? ? cache : URI.open(url, &read_io)
   end
 
   def cached?
@@ -81,4 +93,6 @@ class CrystalApiScraper
   def url
     "https://crystal-lang.org/api/master/#{@klass}.html"
   end
+end
+
 end
