@@ -1,0 +1,1885 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://crystal-lang.org/api/master/Class.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Last-Modified:
+      - Thu, 07 May 2020 21:33:36 GMT
+      Server:
+      - AmazonS3
+      Date:
+      - Fri, 08 May 2020 09:31:17 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - RefreshHit from cloudfront
+      Via:
+      - 1.1 b9a8ce441329f20cea895e08f19f1ec8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SFO9
+      X-Amz-Cf-Id:
+      - ZqFLMuySFzBaltuIBPdaxG1HWuAxIAvT4wai1TjTP3alZiH3o_TzVQ==
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\"
+        />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"generator\"
+        content=\"Crystal Docs 0.34.0\">\n<meta name=\"crystal_docs.project_version\"
+        content=\"0.35.0-dev\">\n<meta name=\"crystal_docs.project_name\" content=\"Crystal\">\n\n\n<link
+        href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" />\n<script type=\"text/javascript\"
+        src=\"js/doc.js\"></script>\n\n<svg class=\"hidden\">\n  <symbol id=\"octicon-link\"
+        viewBox=\"0 0 16 16\">\n    <path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5
+        0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45
+        1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1
+        0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2
+        1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path>\n
+        \ </symbol>\n</svg>\n\n  <meta id=\"repository-name\" content=\"Crystal\">\n
+        \ <title>Class - Crystal 0.35.0-dev</title>\n  <script type=\"text/javascript\">\n
+        \   CrystalDocs.base_path = \"\";\n  </script>\n</head>\n<body>\n\n<div class=\"sidebar\">\n
+        \ <div class=\"sidebar-header\">\n    <div class=\"search-box\">\n      <input
+        type=\"search\" class=\"search-input\" placeholder=\"Search...\" spellcheck=\"false\"
+        aria-label=\"Search\">\n    </div>\n\n    <div class=\"project-summary\">\n
+        \     <h1 class=\"project-name\">\n        <a href=\"index.html\">\n          Crystal\n
+        \       </a>\n      </h1>\n\n      <span class=\"project-version\">\n        0.35.0-dev\n
+        \     </span>\n    </div>\n  </div>\n\n  <div class=\"search-results\" class=\"hidden\">\n
+        \   <ul class=\"search-list\"></ul>\n  </div>\n\n  <div class=\"types-list\">\n
+        \   <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/toplevel\"
+        data-name=\"top level namespace\">\n      <a href=\"toplevel.html\">Top Level
+        Namespace</a>\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Adler32\"
+        data-name=\"adler32\">\n      <a href=\"Adler32.html\">Adler32</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/ArgumentError\"
+        data-name=\"argumenterror\">\n      <a href=\"ArgumentError.html\">ArgumentError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Array\"
+        data-name=\"array(t)\">\n      <a href=\"Array.html\">Array</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Atomic\"
+        data-name=\"atomic(t)\">\n      <a href=\"Atomic.html\">Atomic</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Atomic/Flag\"
+        data-name=\"atomic::flag\">\n      <a href=\"Atomic/Flag.html\">Flag</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Base64\" data-name=\"base64\">\n
+        \     <a href=\"Base64.html\">Base64</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Base64/Error\" data-name=\"base64::error\">\n
+        \     <a href=\"Base64/Error.html\">Error</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Benchmark\"
+        data-name=\"benchmark\">\n      <a href=\"Benchmark.html\">Benchmark</a>\n
+        \     \n        <ul>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Benchmark/BM\"
+        data-name=\"benchmark::bm\">\n      <a href=\"Benchmark/BM.html\">BM</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Benchmark/BM/Job\"
+        data-name=\"benchmark::bm::job\">\n      <a href=\"Benchmark/BM/Job.html\">Job</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Benchmark/BM/Tms\"
+        data-name=\"benchmark::bm::tms\">\n      <a href=\"Benchmark/BM/Tms.html\">Tms</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Benchmark/IPS\" data-name=\"benchmark::ips\">\n
+        \     <a href=\"Benchmark/IPS.html\">IPS</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Benchmark/IPS/Entry\"
+        data-name=\"benchmark::ips::entry\">\n      <a href=\"Benchmark/IPS/Entry.html\">Entry</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Benchmark/IPS/Job\"
+        data-name=\"benchmark::ips::job\">\n      <a href=\"Benchmark/IPS/Job.html\">Job</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/BigDecimal\"
+        data-name=\"bigdecimal\">\n      <a href=\"BigDecimal.html\">BigDecimal</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/BigFloat\"
+        data-name=\"bigfloat\">\n      <a href=\"BigFloat.html\">BigFloat</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/BigInt\"
+        data-name=\"bigint\">\n      <a href=\"BigInt.html\">BigInt</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/BigRational\"
+        data-name=\"bigrational\">\n      <a href=\"BigRational.html\">BigRational</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/BitArray\"
+        data-name=\"bitarray\">\n      <a href=\"BitArray.html\">BitArray</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Bool\"
+        data-name=\"bool\">\n      <a href=\"Bool.html\">Bool</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Box\" data-name=\"box(t)\">\n
+        \     <a href=\"Box.html\">Box</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Bytes\" data-name=\"bytes\">\n
+        \     <a href=\"Bytes.html\">Bytes</a>\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Channel\" data-name=\"channel(t)\">\n
+        \     <a href=\"Channel.html\">Channel</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/ClosedError\"
+        data-name=\"channel::closederror\">\n      <a href=\"Channel/ClosedError.html\">ClosedError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/DeliveryState\"
+        data-name=\"channel::deliverystate\">\n      <a href=\"Channel/DeliveryState.html\">DeliveryState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/NotReady\"
+        data-name=\"channel::notready\">\n      <a href=\"Channel/NotReady.html\">NotReady</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/SelectAction\"
+        data-name=\"channel::selectaction(s)\">\n      <a href=\"Channel/SelectAction.html\">SelectAction</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/SelectState\"
+        data-name=\"channel::selectstate\">\n      <a href=\"Channel/SelectState.html\">SelectState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Channel/UseDefault\"
+        data-name=\"channel::usedefault\">\n      <a href=\"Channel/UseDefault.html\">UseDefault</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Char\" data-name=\"char\">\n
+        \     <a href=\"Char.html\">Char</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Char/Reader\" data-name=\"char::reader\">\n
+        \     <a href=\"Char/Reader.html\">Reader</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" current\" data-id=\"github.com/crystal-lang/crystal/Class\"
+        data-name=\"class\">\n      <a href=\"Class.html\">Class</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Colorize\"
+        data-name=\"colorize\">\n      <a href=\"Colorize.html\">Colorize</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/Color\"
+        data-name=\"colorize::color\">\n      <a href=\"Colorize/Color.html\">Color</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/Color256\"
+        data-name=\"colorize::color256\">\n      <a href=\"Colorize/Color256.html\">Color256</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/ColorANSI\"
+        data-name=\"colorize::coloransi\">\n      <a href=\"Colorize/ColorANSI.html\">ColorANSI</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/ColorRGB\"
+        data-name=\"colorize::colorrgb\">\n      <a href=\"Colorize/ColorRGB.html\">ColorRGB</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/Object\"
+        data-name=\"colorize::object(t)\">\n      <a href=\"Colorize/Object.html\">Object</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Colorize/ObjectExtensions\"
+        data-name=\"colorize::objectextensions\">\n      <a href=\"Colorize/ObjectExtensions.html\">ObjectExtensions</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Comparable\"
+        data-name=\"comparable(t)\">\n      <a href=\"Comparable.html\">Comparable</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Complex\"
+        data-name=\"complex\">\n      <a href=\"Complex.html\">Complex</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Compress\"
+        data-name=\"compress\">\n      <a href=\"Compress.html\">Compress</a>\n      \n
+        \       <ul>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Compress/Deflate\"
+        data-name=\"compress::deflate\">\n      <a href=\"Compress/Deflate.html\">Deflate</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Deflate/Error\"
+        data-name=\"compress::deflate::error\">\n      <a href=\"Compress/Deflate/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Deflate/Reader\"
+        data-name=\"compress::deflate::reader\">\n      <a href=\"Compress/Deflate/Reader.html\">Reader</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Deflate/Strategy\"
+        data-name=\"compress::deflate::strategy\">\n      <a href=\"Compress/Deflate/Strategy.html\">Strategy</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Deflate/Writer\"
+        data-name=\"compress::deflate::writer\">\n      <a href=\"Compress/Deflate/Writer.html\">Writer</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Compress/Gzip\" data-name=\"compress::gzip\">\n
+        \     <a href=\"Compress/Gzip.html\">Gzip</a>\n      \n        <ul>\n  \n
+        \ <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Gzip/Error\"
+        data-name=\"compress::gzip::error\">\n      <a href=\"Compress/Gzip/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Gzip/Header\"
+        data-name=\"compress::gzip::header\">\n      <a href=\"Compress/Gzip/Header.html\">Header</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Gzip/Reader\"
+        data-name=\"compress::gzip::reader\">\n      <a href=\"Compress/Gzip/Reader.html\">Reader</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Gzip/Writer\"
+        data-name=\"compress::gzip::writer\">\n      <a href=\"Compress/Gzip/Writer.html\">Writer</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip\" data-name=\"compress::zip\">\n
+        \     <a href=\"Compress/Zip.html\">Zip</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/CompressionMethod\"
+        data-name=\"compress::zip::compressionmethod\">\n      <a href=\"Compress/Zip/CompressionMethod.html\">CompressionMethod</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/Error\"
+        data-name=\"compress::zip::error\">\n      <a href=\"Compress/Zip/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/File\"
+        data-name=\"compress::zip::file\">\n      <a href=\"Compress/Zip/File.html\">File</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/File/Entry\"
+        data-name=\"compress::zip::file::entry\">\n      <a href=\"Compress/Zip/File/Entry.html\">Entry</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/FileInfo\"
+        data-name=\"compress::zip::fileinfo\">\n      <a href=\"Compress/Zip/FileInfo.html\">FileInfo</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/Reader\"
+        data-name=\"compress::zip::reader\">\n      <a href=\"Compress/Zip/Reader.html\">Reader</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/Reader/Entry\"
+        data-name=\"compress::zip::reader::entry\">\n      <a href=\"Compress/Zip/Reader/Entry.html\">Entry</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/Writer\" data-name=\"compress::zip::writer\">\n
+        \     <a href=\"Compress/Zip/Writer.html\">Writer</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zip/Writer/Entry\"
+        data-name=\"compress::zip::writer::entry\">\n      <a href=\"Compress/Zip/Writer/Entry.html\">Entry</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Compress/Zlib\"
+        data-name=\"compress::zlib\">\n      <a href=\"Compress/Zlib.html\">Zlib</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zlib/Error\"
+        data-name=\"compress::zlib::error\">\n      <a href=\"Compress/Zlib/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zlib/Reader\"
+        data-name=\"compress::zlib::reader\">\n      <a href=\"Compress/Zlib/Reader.html\">Reader</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Compress/Zlib/Writer\"
+        data-name=\"compress::zlib::writer\">\n      <a href=\"Compress/Zlib/Writer.html\">Writer</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CRC32\" data-name=\"crc32\">\n
+        \     <a href=\"CRC32.html\">CRC32</a>\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Crypto\" data-name=\"crypto\">\n
+        \     <a href=\"Crypto.html\">Crypto</a>\n      \n        <ul>\n  \n  <li
+        class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Crypto/Bcrypt\"
+        data-name=\"crypto::bcrypt\">\n      <a href=\"Crypto/Bcrypt.html\">Bcrypt</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crypto/Bcrypt/Error\"
+        data-name=\"crypto::bcrypt::error\">\n      <a href=\"Crypto/Bcrypt/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crypto/Bcrypt/Password\"
+        data-name=\"crypto::bcrypt::password\">\n      <a href=\"Crypto/Bcrypt/Password.html\">Password</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crypto/Blowfish\"
+        data-name=\"crypto::blowfish\">\n      <a href=\"Crypto/Blowfish.html\">Blowfish</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crypto/Subtle\"
+        data-name=\"crypto::subtle\">\n      <a href=\"Crypto/Subtle.html\">Subtle</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Crystal\" data-name=\"crystal\">\n
+        \     <a href=\"Crystal.html\">Crystal</a>\n      \n        <ul>\n  \n  <li
+        class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros\"
+        data-name=\"crystal::macros\">\n      <a href=\"Crystal/Macros.html\">Macros</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/And\"
+        data-name=\"crystal::macros::and\">\n      <a href=\"Crystal/Macros/And.html\">And</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Annotation\"
+        data-name=\"crystal::macros::annotation\">\n      <a href=\"Crystal/Macros/Annotation.html\">Annotation</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Arg\"
+        data-name=\"crystal::macros::arg\">\n      <a href=\"Crystal/Macros/Arg.html\">Arg</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ArrayLiteral\"
+        data-name=\"crystal::macros::arrayliteral\">\n      <a href=\"Crystal/Macros/ArrayLiteral.html\">ArrayLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Assign\"
+        data-name=\"crystal::macros::assign\">\n      <a href=\"Crystal/Macros/Assign.html\">Assign</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ASTNode\"
+        data-name=\"crystal::macros::astnode\">\n      <a href=\"Crystal/Macros/ASTNode.html\">ASTNode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/BinaryOp\"
+        data-name=\"crystal::macros::binaryop\">\n      <a href=\"Crystal/Macros/BinaryOp.html\">BinaryOp</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Block\"
+        data-name=\"crystal::macros::block\">\n      <a href=\"Crystal/Macros/Block.html\">Block</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/BoolLiteral\"
+        data-name=\"crystal::macros::boolliteral\">\n      <a href=\"Crystal/Macros/BoolLiteral.html\">BoolLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Call\"
+        data-name=\"crystal::macros::call\">\n      <a href=\"Crystal/Macros/Call.html\">Call</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Case\"
+        data-name=\"crystal::macros::case\">\n      <a href=\"Crystal/Macros/Case.html\">Case</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Cast\"
+        data-name=\"crystal::macros::cast\">\n      <a href=\"Crystal/Macros/Cast.html\">Cast</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/CharLiteral\"
+        data-name=\"crystal::macros::charliteral\">\n      <a href=\"Crystal/Macros/CharLiteral.html\">CharLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ClassDef\"
+        data-name=\"crystal::macros::classdef\">\n      <a href=\"Crystal/Macros/ClassDef.html\">ClassDef</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ClassVar\"
+        data-name=\"crystal::macros::classvar\">\n      <a href=\"Crystal/Macros/ClassVar.html\">ClassVar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Def\"
+        data-name=\"crystal::macros::def\">\n      <a href=\"Crystal/Macros/Def.html\">Def</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Expressions\"
+        data-name=\"crystal::macros::expressions\">\n      <a href=\"Crystal/Macros/Expressions.html\">Expressions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Generic\"
+        data-name=\"crystal::macros::generic\">\n      <a href=\"Crystal/Macros/Generic.html\">Generic</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Global\"
+        data-name=\"crystal::macros::global\">\n      <a href=\"Crystal/Macros/Global.html\">Global</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/HashLiteral\"
+        data-name=\"crystal::macros::hashliteral\">\n      <a href=\"Crystal/Macros/HashLiteral.html\">HashLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/If\"
+        data-name=\"crystal::macros::if\">\n      <a href=\"Crystal/Macros/If.html\">If</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ImplicitObj\"
+        data-name=\"crystal::macros::implicitobj\">\n      <a href=\"Crystal/Macros/ImplicitObj.html\">ImplicitObj</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/InstanceSizeOf\"
+        data-name=\"crystal::macros::instancesizeof\">\n      <a href=\"Crystal/Macros/InstanceSizeOf.html\">InstanceSizeOf</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/InstanceVar\"
+        data-name=\"crystal::macros::instancevar\">\n      <a href=\"Crystal/Macros/InstanceVar.html\">InstanceVar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/IsA\"
+        data-name=\"crystal::macros::isa\">\n      <a href=\"Crystal/Macros/IsA.html\">IsA</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Macro\"
+        data-name=\"crystal::macros::macro\">\n      <a href=\"Crystal/Macros/Macro.html\">Macro</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/MacroId\"
+        data-name=\"crystal::macros::macroid\">\n      <a href=\"Crystal/Macros/MacroId.html\">MacroId</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/MetaVar\"
+        data-name=\"crystal::macros::metavar\">\n      <a href=\"Crystal/Macros/MetaVar.html\">MetaVar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/MultiAssign\"
+        data-name=\"crystal::macros::multiassign\">\n      <a href=\"Crystal/Macros/MultiAssign.html\">MultiAssign</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/NamedArgument\"
+        data-name=\"crystal::macros::namedargument\">\n      <a href=\"Crystal/Macros/NamedArgument.html\">NamedArgument</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/NamedTupleLiteral\"
+        data-name=\"crystal::macros::namedtupleliteral\">\n      <a href=\"Crystal/Macros/NamedTupleLiteral.html\">NamedTupleLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/NilableCast\"
+        data-name=\"crystal::macros::nilablecast\">\n      <a href=\"Crystal/Macros/NilableCast.html\">NilableCast</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/NilLiteral\"
+        data-name=\"crystal::macros::nilliteral\">\n      <a href=\"Crystal/Macros/NilLiteral.html\">NilLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Nop\"
+        data-name=\"crystal::macros::nop\">\n      <a href=\"Crystal/Macros/Nop.html\">Nop</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Not\"
+        data-name=\"crystal::macros::not\">\n      <a href=\"Crystal/Macros/Not.html\">Not</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/NumberLiteral\"
+        data-name=\"crystal::macros::numberliteral\">\n      <a href=\"Crystal/Macros/NumberLiteral.html\">NumberLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/OffsetOf\"
+        data-name=\"crystal::macros::offsetof\">\n      <a href=\"Crystal/Macros/OffsetOf.html\">OffsetOf</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Or\"
+        data-name=\"crystal::macros::or\">\n      <a href=\"Crystal/Macros/Or.html\">Or</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Out\"
+        data-name=\"crystal::macros::out\">\n      <a href=\"Crystal/Macros/Out.html\">Out</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Path\"
+        data-name=\"crystal::macros::path\">\n      <a href=\"Crystal/Macros/Path.html\">Path</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/PointerOf\"
+        data-name=\"crystal::macros::pointerof\">\n      <a href=\"Crystal/Macros/PointerOf.html\">PointerOf</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ProcLiteral\"
+        data-name=\"crystal::macros::procliteral\">\n      <a href=\"Crystal/Macros/ProcLiteral.html\">ProcLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ProcNotation\"
+        data-name=\"crystal::macros::procnotation\">\n      <a href=\"Crystal/Macros/ProcNotation.html\">ProcNotation</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ProcPointer\"
+        data-name=\"crystal::macros::procpointer\">\n      <a href=\"Crystal/Macros/ProcPointer.html\">ProcPointer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/RangeLiteral\"
+        data-name=\"crystal::macros::rangeliteral\">\n      <a href=\"Crystal/Macros/RangeLiteral.html\">RangeLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/ReadInstanceVar\"
+        data-name=\"crystal::macros::readinstancevar\">\n      <a href=\"Crystal/Macros/ReadInstanceVar.html\">ReadInstanceVar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/RegexLiteral\"
+        data-name=\"crystal::macros::regexliteral\">\n      <a href=\"Crystal/Macros/RegexLiteral.html\">RegexLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Require\"
+        data-name=\"crystal::macros::require\">\n      <a href=\"Crystal/Macros/Require.html\">Require</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/RespondsTo\"
+        data-name=\"crystal::macros::respondsto\">\n      <a href=\"Crystal/Macros/RespondsTo.html\">RespondsTo</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/SizeOf\"
+        data-name=\"crystal::macros::sizeof\">\n      <a href=\"Crystal/Macros/SizeOf.html\">SizeOf</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Splat\"
+        data-name=\"crystal::macros::splat\">\n      <a href=\"Crystal/Macros/Splat.html\">Splat</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/StringInterpolation\"
+        data-name=\"crystal::macros::stringinterpolation\">\n      <a href=\"Crystal/Macros/StringInterpolation.html\">StringInterpolation</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/StringLiteral\"
+        data-name=\"crystal::macros::stringliteral\">\n      <a href=\"Crystal/Macros/StringLiteral.html\">StringLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/SymbolLiteral\"
+        data-name=\"crystal::macros::symbolliteral\">\n      <a href=\"Crystal/Macros/SymbolLiteral.html\">SymbolLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/TupleLiteral\"
+        data-name=\"crystal::macros::tupleliteral\">\n      <a href=\"Crystal/Macros/TupleLiteral.html\">TupleLiteral</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/TypeDeclaration\"
+        data-name=\"crystal::macros::typedeclaration\">\n      <a href=\"Crystal/Macros/TypeDeclaration.html\">TypeDeclaration</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/TypeNode\"
+        data-name=\"crystal::macros::typenode\">\n      <a href=\"Crystal/Macros/TypeNode.html\">TypeNode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/UnaryExpression\"
+        data-name=\"crystal::macros::unaryexpression\">\n      <a href=\"Crystal/Macros/UnaryExpression.html\">UnaryExpression</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/UninitializedVar\"
+        data-name=\"crystal::macros::uninitializedvar\">\n      <a href=\"Crystal/Macros/UninitializedVar.html\">UninitializedVar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Union\"
+        data-name=\"crystal::macros::union\">\n      <a href=\"Crystal/Macros/Union.html\">Union</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/Var\"
+        data-name=\"crystal::macros::var\">\n      <a href=\"Crystal/Macros/Var.html\">Var</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/VisibilityModifier\"
+        data-name=\"crystal::macros::visibilitymodifier\">\n      <a href=\"Crystal/Macros/VisibilityModifier.html\">VisibilityModifier</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/When\"
+        data-name=\"crystal::macros::when\">\n      <a href=\"Crystal/Macros/When.html\">When</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Crystal/Macros/While\"
+        data-name=\"crystal::macros::while\">\n      <a href=\"Crystal/Macros/While.html\">While</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/CSV\"
+        data-name=\"csv\">\n      <a href=\"CSV.html\">CSV</a>\n      \n        <ul>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/CSV/Builder\"
+        data-name=\"csv::builder\">\n      <a href=\"CSV/Builder.html\">Builder</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Builder/Quoting\"
+        data-name=\"csv::builder::quoting\">\n      <a href=\"CSV/Builder/Quoting.html\">Quoting</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Builder/Row\"
+        data-name=\"csv::builder::row\">\n      <a href=\"CSV/Builder/Row.html\">Row</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Error\"
+        data-name=\"csv::error\">\n      <a href=\"CSV/Error.html\">Error</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Lexer\"
+        data-name=\"csv::lexer\">\n      <a href=\"CSV/Lexer.html\">Lexer</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/MalformedCSVError\"
+        data-name=\"csv::malformedcsverror\">\n      <a href=\"CSV/MalformedCSVError.html\">MalformedCSVError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Parser\"
+        data-name=\"csv::parser\">\n      <a href=\"CSV/Parser.html\">Parser</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Row\"
+        data-name=\"csv::row\">\n      <a href=\"CSV/Row.html\">Row</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/CSV/Token\"
+        data-name=\"csv::token\">\n      <a href=\"CSV/Token.html\">Token</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/CSV/Token/Kind\"
+        data-name=\"csv::token::kind\">\n      <a href=\"CSV/Token/Kind.html\">Kind</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Deprecated\"
+        data-name=\"deprecated\">\n      <a href=\"Deprecated.html\">Deprecated</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Deque\"
+        data-name=\"deque(t)\">\n      <a href=\"Deque.html\">Deque</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Digest\"
+        data-name=\"digest\">\n      <a href=\"Digest.html\">Digest</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Digest/Adler32\"
+        data-name=\"digest::adler32\">\n      <a href=\"Digest/Adler32.html\">Adler32</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Digest/Base\"
+        data-name=\"digest::base\">\n      <a href=\"Digest/Base.html\">Base</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Digest/CRC32\"
+        data-name=\"digest::crc32\">\n      <a href=\"Digest/CRC32.html\">CRC32</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Digest/MD5\"
+        data-name=\"digest::md5\">\n      <a href=\"Digest/MD5.html\">MD5</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Digest/SHA1\"
+        data-name=\"digest::sha1\">\n      <a href=\"Digest/SHA1.html\">SHA1</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Dir\"
+        data-name=\"dir\">\n      <a href=\"Dir.html\">Dir</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/DivisionByZeroError\"
+        data-name=\"divisionbyzeroerror\">\n      <a href=\"DivisionByZeroError.html\">DivisionByZeroError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/ECR\"
+        data-name=\"ecr\">\n      <a href=\"ECR.html\">ECR</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Enum\" data-name=\"enum\">\n
+        \     <a href=\"Enum.html\">Enum</a>\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Enumerable\" data-name=\"enumerable(t)\">\n
+        \     <a href=\"Enumerable.html\">Enumerable</a>\n      \n        <ul>\n  \n
+        \ <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Enumerable/Chunk\"
+        data-name=\"enumerable::chunk\">\n      <a href=\"Enumerable/Chunk.html\">Chunk</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Enumerable/Chunk/Alone\"
+        data-name=\"enumerable::chunk::alone\">\n      <a href=\"Enumerable/Chunk/Alone.html\">Alone</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Enumerable/Chunk/Drop\"
+        data-name=\"enumerable::chunk::drop\">\n      <a href=\"Enumerable/Chunk/Drop.html\">Drop</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Enumerable/EmptyError\"
+        data-name=\"enumerable::emptyerror\">\n      <a href=\"Enumerable/EmptyError.html\">EmptyError</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/ENV\"
+        data-name=\"env\">\n      <a href=\"ENV.html\">ENV</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Errno\" data-name=\"errno\">\n
+        \     <a href=\"Errno.html\">Errno</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Exception\" data-name=\"exception\">\n
+        \     <a href=\"Exception.html\">Exception</a>\n      \n    </li>\n  \n  <li
+        class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Fiber\" data-name=\"fiber\">\n
+        \     <a href=\"Fiber.html\">Fiber</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Fiber/Context\" data-name=\"fiber::context\">\n
+        \     <a href=\"Fiber/Context.html\">Context</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/File\"
+        data-name=\"file\">\n      <a href=\"File.html\">File</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/AccessDeniedError\"
+        data-name=\"file::accessdeniederror\">\n      <a href=\"File/AccessDeniedError.html\">AccessDeniedError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/AlreadyExistsError\"
+        data-name=\"file::alreadyexistserror\">\n      <a href=\"File/AlreadyExistsError.html\">AlreadyExistsError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/BadPatternError\"
+        data-name=\"file::badpatternerror\">\n      <a href=\"File/BadPatternError.html\">BadPatternError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/Error\"
+        data-name=\"file::error\">\n      <a href=\"File/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/Flags\"
+        data-name=\"file::flags\">\n      <a href=\"File/Flags.html\">Flags</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/Info\"
+        data-name=\"file::info\">\n      <a href=\"File/Info.html\">Info</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/NotFoundError\"
+        data-name=\"file::notfounderror\">\n      <a href=\"File/NotFoundError.html\">NotFoundError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/Permissions\"
+        data-name=\"file::permissions\">\n      <a href=\"File/Permissions.html\">Permissions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/File/Type\"
+        data-name=\"file::type\">\n      <a href=\"File/Type.html\">Type</a>\n      \n
+        \   </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/FileUtils\"
+        data-name=\"fileutils\">\n      <a href=\"FileUtils.html\">FileUtils</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Flags\"
+        data-name=\"flags\">\n      <a href=\"Flags.html\">Flags</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Flate\" data-name=\"flate\">\n
+        \     <a href=\"Flate.html\">Flate</a>\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Float\" data-name=\"float\">\n
+        \     <a href=\"Float.html\">Float</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Float/Primitive\" data-name=\"float::primitive\">\n
+        \     <a href=\"Float/Primitive.html\">Primitive</a>\n      \n    </li>\n
+        \ \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Float32\"
+        data-name=\"float32\">\n      <a href=\"Float32.html\">Float32</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Float64\"
+        data-name=\"float64\">\n      <a href=\"Float64.html\">Float64</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/GC\"
+        data-name=\"gc\">\n      <a href=\"GC.html\">GC</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/GC/ProfStats\"
+        data-name=\"gc::profstats\">\n      <a href=\"GC/ProfStats.html\">ProfStats</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/GC/Stats\"
+        data-name=\"gc::stats\">\n      <a href=\"GC/Stats.html\">Stats</a>\n      \n
+        \   </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Gzip\"
+        data-name=\"gzip\">\n      <a href=\"Gzip.html\">Gzip</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Hash\"
+        data-name=\"hash(k, v)\">\n      <a href=\"Hash.html\">Hash</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Hash/Entry\"
+        data-name=\"hash::entry(k, v)\">\n      <a href=\"Hash/Entry.html\">Entry</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTML\"
+        data-name=\"html\">\n      <a href=\"HTML.html\">HTML</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP\"
+        data-name=\"http\">\n      <a href=\"HTTP.html\">HTTP</a>\n      \n        <ul>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/Client\"
+        data-name=\"http::client\">\n      <a href=\"HTTP/Client.html\">Client</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Client/BodyType\"
+        data-name=\"http::client::bodytype\">\n      <a href=\"HTTP/Client/BodyType.html\">BodyType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Client/Response\"
+        data-name=\"http::client::response\">\n      <a href=\"HTTP/Client/Response.html\">Response</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Client/TLSContext\"
+        data-name=\"http::client::tlscontext\">\n      <a href=\"HTTP/Client/TLSContext.html\">TLSContext</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/CompressHandler\"
+        data-name=\"http::compresshandler\">\n      <a href=\"HTTP/CompressHandler.html\">CompressHandler</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/Cookie\"
+        data-name=\"http::cookie\">\n      <a href=\"HTTP/Cookie.html\">Cookie</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Cookie/SameSite\"
+        data-name=\"http::cookie::samesite\">\n      <a href=\"HTTP/Cookie/SameSite.html\">SameSite</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Cookies\"
+        data-name=\"http::cookies\">\n      <a href=\"HTTP/Cookies.html\">Cookies</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/ErrorHandler\"
+        data-name=\"http::errorhandler\">\n      <a href=\"HTTP/ErrorHandler.html\">ErrorHandler</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData\"
+        data-name=\"http::formdata\">\n      <a href=\"HTTP/FormData.html\">FormData</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData/Builder\"
+        data-name=\"http::formdata::builder\">\n      <a href=\"HTTP/FormData/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData/Error\"
+        data-name=\"http::formdata::error\">\n      <a href=\"HTTP/FormData/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData/FileMetadata\"
+        data-name=\"http::formdata::filemetadata\">\n      <a href=\"HTTP/FormData/FileMetadata.html\">FileMetadata</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData/Parser\"
+        data-name=\"http::formdata::parser\">\n      <a href=\"HTTP/FormData/Parser.html\">Parser</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/FormData/Part\"
+        data-name=\"http::formdata::part\">\n      <a href=\"HTTP/FormData/Part.html\">Part</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/HTTP/Handler\" data-name=\"http::handler\">\n
+        \     <a href=\"HTTP/Handler.html\">Handler</a>\n      \n        <ul>\n  \n
+        \ <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Handler/HandlerProc\"
+        data-name=\"http::handler::handlerproc\">\n      <a href=\"HTTP/Handler/HandlerProc.html\">HandlerProc</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Headers\"
+        data-name=\"http::headers\">\n      <a href=\"HTTP/Headers.html\">Headers</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/LogHandler\"
+        data-name=\"http::loghandler\">\n      <a href=\"HTTP/LogHandler.html\">LogHandler</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/Params\"
+        data-name=\"http::params\">\n      <a href=\"HTTP/Params.html\">Params</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Params/Builder\"
+        data-name=\"http::params::builder\">\n      <a href=\"HTTP/Params/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Request\"
+        data-name=\"http::request\">\n      <a href=\"HTTP/Request.html\">Request</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/Server\"
+        data-name=\"http::server\">\n      <a href=\"HTTP/Server.html\">Server</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Server/ClientError\"
+        data-name=\"http::server::clienterror\">\n      <a href=\"HTTP/Server/ClientError.html\">ClientError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Server/Context\"
+        data-name=\"http::server::context\">\n      <a href=\"HTTP/Server/Context.html\">Context</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Server/RequestProcessor\"
+        data-name=\"http::server::requestprocessor\">\n      <a href=\"HTTP/Server/RequestProcessor.html\">RequestProcessor</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Server/Response\"
+        data-name=\"http::server::response\">\n      <a href=\"HTTP/Server/Response.html\">Response</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/HTTP/StaticFileHandler\" data-name=\"http::staticfilehandler\">\n
+        \     <a href=\"HTTP/StaticFileHandler.html\">StaticFileHandler</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/StaticFileHandler/DirectoryListing\"
+        data-name=\"http::staticfilehandler::directorylisting\">\n      <a href=\"HTTP/StaticFileHandler/DirectoryListing.html\">DirectoryListing</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/Status\"
+        data-name=\"http::status\">\n      <a href=\"HTTP/Status.html\">Status</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/HTTP/WebSocket\"
+        data-name=\"http::websocket\">\n      <a href=\"HTTP/WebSocket.html\">WebSocket</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/WebSocket/CloseCode\"
+        data-name=\"http::websocket::closecode\">\n      <a href=\"HTTP/WebSocket/CloseCode.html\">CloseCode</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/HTTP/WebSocketHandler\"
+        data-name=\"http::websockethandler\">\n      <a href=\"HTTP/WebSocketHandler.html\">WebSocketHandler</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Indexable\"
+        data-name=\"indexable(t)\">\n      <a href=\"Indexable.html\">Indexable</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IndexError\"
+        data-name=\"indexerror\">\n      <a href=\"IndexError.html\">IndexError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/INI\"
+        data-name=\"ini\">\n      <a href=\"INI.html\">INI</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/INI/ParseException\"
+        data-name=\"ini::parseexception\">\n      <a href=\"INI/ParseException.html\">ParseException</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Int\" data-name=\"int\">\n      <a
+        href=\"Int.html\">Int</a>\n      \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int/BinaryPrefixFormat\"
+        data-name=\"int::binaryprefixformat\">\n      <a href=\"Int/BinaryPrefixFormat.html\">BinaryPrefixFormat</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int/Primitive\"
+        data-name=\"int::primitive\">\n      <a href=\"Int/Primitive.html\">Primitive</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int/Signed\"
+        data-name=\"int::signed\">\n      <a href=\"Int/Signed.html\">Signed</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int/Unsigned\"
+        data-name=\"int::unsigned\">\n      <a href=\"Int/Unsigned.html\">Unsigned</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int128\"
+        data-name=\"int128\">\n      <a href=\"Int128.html\">Int128</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int16\"
+        data-name=\"int16\">\n      <a href=\"Int16.html\">Int16</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Int32\" data-name=\"int32\">\n
+        \     <a href=\"Int32.html\">Int32</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Int64\" data-name=\"int64\">\n
+        \     <a href=\"Int64.html\">Int64</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Int8\" data-name=\"int8\">\n
+        \     <a href=\"Int8.html\">Int8</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Intrinsics\" data-name=\"intrinsics\">\n
+        \     <a href=\"Intrinsics.html\">Intrinsics</a>\n      \n    </li>\n  \n
+        \ <li class=\" \" data-id=\"github.com/crystal-lang/crystal/InvalidBigDecimalException\"
+        data-name=\"invalidbigdecimalexception\">\n      <a href=\"InvalidBigDecimalException.html\">InvalidBigDecimalException</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/InvalidByteSequenceError\"
+        data-name=\"invalidbytesequenceerror\">\n      <a href=\"InvalidByteSequenceError.html\">InvalidByteSequenceError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/IO\"
+        data-name=\"io\">\n      <a href=\"IO.html\">IO</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Buffered\"
+        data-name=\"io::buffered\">\n      <a href=\"IO/Buffered.html\">Buffered</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/IO/ByteFormat\"
+        data-name=\"io::byteformat\">\n      <a href=\"IO/ByteFormat.html\">ByteFormat</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/ByteFormat/BigEndian\"
+        data-name=\"io::byteformat::bigendian\">\n      <a href=\"IO/ByteFormat/BigEndian.html\">BigEndian</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/ByteFormat/LittleEndian\"
+        data-name=\"io::byteformat::littleendian\">\n      <a href=\"IO/ByteFormat/LittleEndian.html\">LittleEndian</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/ByteFormat/NetworkEndian\"
+        data-name=\"io::byteformat::networkendian\">\n      <a href=\"IO/ByteFormat/NetworkEndian.html\">NetworkEndian</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/ByteFormat/SystemEndian\"
+        data-name=\"io::byteformat::systemendian\">\n      <a href=\"IO/ByteFormat/SystemEndian.html\">SystemEndian</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Delimited\"
+        data-name=\"io::delimited\">\n      <a href=\"IO/Delimited.html\">Delimited</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/EncodingOptions\"
+        data-name=\"io::encodingoptions\">\n      <a href=\"IO/EncodingOptions.html\">EncodingOptions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/EOFError\"
+        data-name=\"io::eoferror\">\n      <a href=\"IO/EOFError.html\">EOFError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Error\"
+        data-name=\"io::error\">\n      <a href=\"IO/Error.html\">Error</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Evented\"
+        data-name=\"io::evented\">\n      <a href=\"IO/Evented.html\">Evented</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/FileDescriptor\"
+        data-name=\"io::filedescriptor\">\n      <a href=\"IO/FileDescriptor.html\">FileDescriptor</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Hexdump\"
+        data-name=\"io::hexdump\">\n      <a href=\"IO/Hexdump.html\">Hexdump</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Memory\"
+        data-name=\"io::memory\">\n      <a href=\"IO/Memory.html\">Memory</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/MultiWriter\"
+        data-name=\"io::multiwriter\">\n      <a href=\"IO/MultiWriter.html\">MultiWriter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Seek\"
+        data-name=\"io::seek\">\n      <a href=\"IO/Seek.html\">Seek</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Sized\"
+        data-name=\"io::sized\">\n      <a href=\"IO/Sized.html\">Sized</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/Stapled\"
+        data-name=\"io::stapled\">\n      <a href=\"IO/Stapled.html\">Stapled</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IO/TimeoutError\"
+        data-name=\"io::timeouterror\">\n      <a href=\"IO/TimeoutError.html\">TimeoutError</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/IPSocket\"
+        data-name=\"ipsocket\">\n      <a href=\"IPSocket.html\">IPSocket</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Iterable\"
+        data-name=\"iterable(t)\">\n      <a href=\"Iterable.html\">Iterable</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Iterator\"
+        data-name=\"iterator(t)\">\n      <a href=\"Iterator.html\">Iterator</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Iterator/IteratorWrapper\"
+        data-name=\"iterator::iteratorwrapper\">\n      <a href=\"Iterator/IteratorWrapper.html\">IteratorWrapper</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Iterator/Stop\"
+        data-name=\"iterator::stop\">\n      <a href=\"Iterator/Stop.html\">Stop</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/JSON\" data-name=\"json\">\n
+        \     <a href=\"JSON.html\">JSON</a>\n      \n        <ul>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/JSON/Any\" data-name=\"json::any\">\n
+        \     <a href=\"JSON/Any.html\">Any</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/JSON/Any/Type\" data-name=\"json::any::type\">\n
+        \     <a href=\"JSON/Any/Type.html\">Type</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/ArrayConverter\"
+        data-name=\"json::arrayconverter(converter)\">\n      <a href=\"JSON/ArrayConverter.html\">ArrayConverter</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder\"
+        data-name=\"json::builder\">\n      <a href=\"JSON/Builder.html\">Builder</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/ArrayState\"
+        data-name=\"json::builder::arraystate\">\n      <a href=\"JSON/Builder/ArrayState.html\">ArrayState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/DocumentEndState\"
+        data-name=\"json::builder::documentendstate\">\n      <a href=\"JSON/Builder/DocumentEndState.html\">DocumentEndState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/DocumentStartState\"
+        data-name=\"json::builder::documentstartstate\">\n      <a href=\"JSON/Builder/DocumentStartState.html\">DocumentStartState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/ObjectState\"
+        data-name=\"json::builder::objectstate\">\n      <a href=\"JSON/Builder/ObjectState.html\">ObjectState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/StartState\"
+        data-name=\"json::builder::startstate\">\n      <a href=\"JSON/Builder/StartState.html\">StartState</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Builder/State\"
+        data-name=\"json::builder::state\">\n      <a href=\"JSON/Builder/State.html\">State</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Error\"
+        data-name=\"json::error\">\n      <a href=\"JSON/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Field\"
+        data-name=\"json::field\">\n      <a href=\"JSON/Field.html\">Field</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/HashValueConverter\"
+        data-name=\"json::hashvalueconverter(converter)\">\n      <a href=\"JSON/HashValueConverter.html\">HashValueConverter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Lexer\"
+        data-name=\"json::lexer\">\n      <a href=\"JSON/Lexer.html\">Lexer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/MappingError\"
+        data-name=\"json::mappingerror\">\n      <a href=\"JSON/MappingError.html\">MappingError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/ParseException\"
+        data-name=\"json::parseexception\">\n      <a href=\"JSON/ParseException.html\">ParseException</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Parser\"
+        data-name=\"json::parser\">\n      <a href=\"JSON/Parser.html\">Parser</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/JSON/PullParser\"
+        data-name=\"json::pullparser\">\n      <a href=\"JSON/PullParser.html\">PullParser</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/PullParser/Kind\"
+        data-name=\"json::pullparser::kind\">\n      <a href=\"JSON/PullParser/Kind.html\">Kind</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/JSON/Serializable\" data-name=\"json::serializable\">\n
+        \     <a href=\"JSON/Serializable.html\">Serializable</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Serializable/Options\"
+        data-name=\"json::serializable::options\">\n      <a href=\"JSON/Serializable/Options.html\">Options</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Serializable/Strict\"
+        data-name=\"json::serializable::strict\">\n      <a href=\"JSON/Serializable/Strict.html\">Strict</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Serializable/Unmapped\"
+        data-name=\"json::serializable::unmapped\">\n      <a href=\"JSON/Serializable/Unmapped.html\">Unmapped</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/JSON/Token\" data-name=\"json::token\">\n
+        \     <a href=\"JSON/Token.html\">Token</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/JSON/Token/Kind\" data-name=\"json::token::kind\">\n
+        \     <a href=\"JSON/Token/Kind.html\">Kind</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/KeyError\"
+        data-name=\"keyerror\">\n      <a href=\"KeyError.html\">KeyError</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Levenshtein\"
+        data-name=\"levenshtein\">\n      <a href=\"Levenshtein.html\">Levenshtein</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Levenshtein/Finder\"
+        data-name=\"levenshtein::finder\">\n      <a href=\"Levenshtein/Finder.html\">Finder</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Link\"
+        data-name=\"link\">\n      <a href=\"Link.html\">Link</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM\"
+        data-name=\"llvm\">\n      <a href=\"LLVM.html\">LLVM</a>\n      \n        <ul>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI\"
+        data-name=\"llvm::abi\">\n      <a href=\"LLVM/ABI.html\">ABI</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/AArch64\"
+        data-name=\"llvm::abi::aarch64\">\n      <a href=\"LLVM/ABI/AArch64.html\">AArch64</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/ArgKind\"
+        data-name=\"llvm::abi::argkind\">\n      <a href=\"LLVM/ABI/ArgKind.html\">ArgKind</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/ArgType\"
+        data-name=\"llvm::abi::argtype\">\n      <a href=\"LLVM/ABI/ArgType.html\">ArgType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/ARM\"
+        data-name=\"llvm::abi::arm\">\n      <a href=\"LLVM/ABI/ARM.html\">ARM</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/FunctionType\"
+        data-name=\"llvm::abi::functiontype\">\n      <a href=\"LLVM/ABI/FunctionType.html\">FunctionType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/X86\"
+        data-name=\"llvm::abi::x86\">\n      <a href=\"LLVM/ABI/X86.html\">X86</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/X86_64\"
+        data-name=\"llvm::abi::x86_64\">\n      <a href=\"LLVM/ABI/X86_64.html\">X86_64</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ABI/X86_64/RegClass\"
+        data-name=\"llvm::abi::x86_64::regclass\">\n      <a href=\"LLVM/ABI/X86_64/RegClass.html\">RegClass</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/AtomicOrdering\"
+        data-name=\"llvm::atomicordering\">\n      <a href=\"LLVM/AtomicOrdering.html\">AtomicOrdering</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/AtomicRMWBinOp\"
+        data-name=\"llvm::atomicrmwbinop\">\n      <a href=\"LLVM/AtomicRMWBinOp.html\">AtomicRMWBinOp</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Attribute\"
+        data-name=\"llvm::attribute\">\n      <a href=\"LLVM/Attribute.html\">Attribute</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/AttributeIndex\"
+        data-name=\"llvm::attributeindex\">\n      <a href=\"LLVM/AttributeIndex.html\">AttributeIndex</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/BasicBlock\"
+        data-name=\"llvm::basicblock\">\n      <a href=\"LLVM/BasicBlock.html\">BasicBlock</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/BasicBlockCollection\"
+        data-name=\"llvm::basicblockcollection\">\n      <a href=\"LLVM/BasicBlockCollection.html\">BasicBlockCollection</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Builder\"
+        data-name=\"llvm::builder\">\n      <a href=\"LLVM/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/CallConvention\"
+        data-name=\"llvm::callconvention\">\n      <a href=\"LLVM/CallConvention.html\">CallConvention</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/CodeGenFileType\"
+        data-name=\"llvm::codegenfiletype\">\n      <a href=\"LLVM/CodeGenFileType.html\">CodeGenFileType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/CodeGenOptLevel\"
+        data-name=\"llvm::codegenoptlevel\">\n      <a href=\"LLVM/CodeGenOptLevel.html\">CodeGenOptLevel</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/CodeModel\"
+        data-name=\"llvm::codemodel\">\n      <a href=\"LLVM/CodeModel.html\">CodeModel</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Context\"
+        data-name=\"llvm::context\">\n      <a href=\"LLVM/Context.html\">Context</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/DIBuilder\"
+        data-name=\"llvm::dibuilder\">\n      <a href=\"LLVM/DIBuilder.html\">DIBuilder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/DIFlags\"
+        data-name=\"llvm::diflags\">\n      <a href=\"LLVM/DIFlags.html\">DIFlags</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/DwarfTag\"
+        data-name=\"llvm::dwarftag\">\n      <a href=\"LLVM/DwarfTag.html\">DwarfTag</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/DwarfTypeEncoding\"
+        data-name=\"llvm::dwarftypeencoding\">\n      <a href=\"LLVM/DwarfTypeEncoding.html\">DwarfTypeEncoding</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Function\"
+        data-name=\"llvm::function\">\n      <a href=\"LLVM/Function.html\">Function</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/FunctionCollection\"
+        data-name=\"llvm::functioncollection\">\n      <a href=\"LLVM/FunctionCollection.html\">FunctionCollection</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM/FunctionPassManager\"
+        data-name=\"llvm::functionpassmanager\">\n      <a href=\"LLVM/FunctionPassManager.html\">FunctionPassManager</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/FunctionPassManager/Runner\"
+        data-name=\"llvm::functionpassmanager::runner\">\n      <a href=\"LLVM/FunctionPassManager/Runner.html\">Runner</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/GenericValue\"
+        data-name=\"llvm::genericvalue\">\n      <a href=\"LLVM/GenericValue.html\">GenericValue</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/GlobalCollection\"
+        data-name=\"llvm::globalcollection\">\n      <a href=\"LLVM/GlobalCollection.html\">GlobalCollection</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/InstructionCollection\"
+        data-name=\"llvm::instructioncollection\">\n      <a href=\"LLVM/InstructionCollection.html\">InstructionCollection</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/IntPredicate\"
+        data-name=\"llvm::intpredicate\">\n      <a href=\"LLVM/IntPredicate.html\">IntPredicate</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/JITCompiler\"
+        data-name=\"llvm::jitcompiler\">\n      <a href=\"LLVM/JITCompiler.html\">JITCompiler</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Linkage\"
+        data-name=\"llvm::linkage\">\n      <a href=\"LLVM/Linkage.html\">Linkage</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/MemoryBuffer\"
+        data-name=\"llvm::memorybuffer\">\n      <a href=\"LLVM/MemoryBuffer.html\">MemoryBuffer</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM/Metadata\"
+        data-name=\"llvm::metadata\">\n      <a href=\"LLVM/Metadata.html\">Metadata</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Metadata/Type\"
+        data-name=\"llvm::metadata::type\">\n      <a href=\"LLVM/Metadata/Type.html\">Type</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Module\"
+        data-name=\"llvm::module\">\n      <a href=\"LLVM/Module.html\">Module</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ModuleFlag\"
+        data-name=\"llvm::moduleflag\">\n      <a href=\"LLVM/ModuleFlag.html\">ModuleFlag</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ModulePassManager\"
+        data-name=\"llvm::modulepassmanager\">\n      <a href=\"LLVM/ModulePassManager.html\">ModulePassManager</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/OperandBundleDef\"
+        data-name=\"llvm::operandbundledef\">\n      <a href=\"LLVM/OperandBundleDef.html\">OperandBundleDef</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ParameterCollection\"
+        data-name=\"llvm::parametercollection\">\n      <a href=\"LLVM/ParameterCollection.html\">ParameterCollection</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/PassManagerBuilder\"
+        data-name=\"llvm::passmanagerbuilder\">\n      <a href=\"LLVM/PassManagerBuilder.html\">PassManagerBuilder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/PassRegistry\"
+        data-name=\"llvm::passregistry\">\n      <a href=\"LLVM/PassRegistry.html\">PassRegistry</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/PhiTable\"
+        data-name=\"llvm::phitable\">\n      <a href=\"LLVM/PhiTable.html\">PhiTable</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/RealPredicate\"
+        data-name=\"llvm::realpredicate\">\n      <a href=\"LLVM/RealPredicate.html\">RealPredicate</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/RelocMode\"
+        data-name=\"llvm::relocmode\">\n      <a href=\"LLVM/RelocMode.html\">RelocMode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Target\"
+        data-name=\"llvm::target\">\n      <a href=\"LLVM/Target.html\">Target</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/TargetData\"
+        data-name=\"llvm::targetdata\">\n      <a href=\"LLVM/TargetData.html\">TargetData</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/TargetMachine\"
+        data-name=\"llvm::targetmachine\">\n      <a href=\"LLVM/TargetMachine.html\">TargetMachine</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/LLVM/Type\"
+        data-name=\"llvm::type\">\n      <a href=\"LLVM/Type.html\">Type</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Type/Kind\"
+        data-name=\"llvm::type::kind\">\n      <a href=\"LLVM/Type/Kind.html\">Kind</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/LLVM/Value\" data-name=\"llvm::value\">\n
+        \     <a href=\"LLVM/Value.html\">Value</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/Value/Kind\" data-name=\"llvm::value::kind\">\n
+        \     <a href=\"LLVM/Value/Kind.html\">Kind</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/ValueMethods\"
+        data-name=\"llvm::valuemethods\">\n      <a href=\"LLVM/ValueMethods.html\">ValueMethods</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/LLVM/VerifierFailureAction\"
+        data-name=\"llvm::verifierfailureaction\">\n      <a href=\"LLVM/VerifierFailureAction.html\">VerifierFailureAction</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Log\" data-name=\"log\">\n      <a
+        href=\"Log.html\">Log</a>\n      \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Backend\"
+        data-name=\"log::backend\">\n      <a href=\"Log/Backend.html\">Backend</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/BroadcastBackend\"
+        data-name=\"log::broadcastbackend\">\n      <a href=\"Log/BroadcastBackend.html\">BroadcastBackend</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Builder\"
+        data-name=\"log::builder\">\n      <a href=\"Log/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Configuration\"
+        data-name=\"log::configuration\">\n      <a href=\"Log/Configuration.html\">Configuration</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Log/Context\"
+        data-name=\"log::context\">\n      <a href=\"Log/Context.html\">Context</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Context/Type\"
+        data-name=\"log::context::type\">\n      <a href=\"Log/Context/Type.html\">Type</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/EntriesChecker\"
+        data-name=\"log::entrieschecker\">\n      <a href=\"Log/EntriesChecker.html\">EntriesChecker</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Entry\"
+        data-name=\"log::entry\">\n      <a href=\"Log/Entry.html\">Entry</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Formatter\"
+        data-name=\"log::formatter\">\n      <a href=\"Log/Formatter.html\">Formatter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/IOBackend\"
+        data-name=\"log::iobackend\">\n      <a href=\"Log/IOBackend.html\">IOBackend</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/MemoryBackend\"
+        data-name=\"log::memorybackend\">\n      <a href=\"Log/MemoryBackend.html\">MemoryBackend</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Log/Severity\"
+        data-name=\"log::severity\">\n      <a href=\"Log/Severity.html\">Severity</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Logger\" data-name=\"logger\">\n
+        \     <a href=\"Logger.html\">Logger</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Logger/Formatter\" data-name=\"logger::formatter\">\n
+        \     <a href=\"Logger/Formatter.html\">Formatter</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Logger/Severity\"
+        data-name=\"logger::severity\">\n      <a href=\"Logger/Severity.html\">Severity</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Math\"
+        data-name=\"math\">\n      <a href=\"Math.html\">Math</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/MIME\"
+        data-name=\"mime\">\n      <a href=\"MIME.html\">MIME</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/MIME/Error\"
+        data-name=\"mime::error\">\n      <a href=\"MIME/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/MIME/MediaType\"
+        data-name=\"mime::mediatype\">\n      <a href=\"MIME/MediaType.html\">MediaType</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/MIME/Multipart\"
+        data-name=\"mime::multipart\">\n      <a href=\"MIME/Multipart.html\">Multipart</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/MIME/Multipart/Builder\"
+        data-name=\"mime::multipart::builder\">\n      <a href=\"MIME/Multipart/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/MIME/Multipart/Error\"
+        data-name=\"mime::multipart::error\">\n      <a href=\"MIME/Multipart/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/MIME/Multipart/Parser\"
+        data-name=\"mime::multipart::parser\">\n      <a href=\"MIME/Multipart/Parser.html\">Parser</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Mutex\"
+        data-name=\"mutex\">\n      <a href=\"Mutex.html\">Mutex</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Mutex/Protection\"
+        data-name=\"mutex::protection\">\n      <a href=\"Mutex/Protection.html\">Protection</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/NamedTuple\"
+        data-name=\"namedtuple(**t)\">\n      <a href=\"NamedTuple.html\">NamedTuple</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Nil\"
+        data-name=\"nil\">\n      <a href=\"Nil.html\">Nil</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/NilAssertionError\"
+        data-name=\"nilassertionerror\">\n      <a href=\"NilAssertionError.html\">NilAssertionError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/NotImplementedError\"
+        data-name=\"notimplementederror\">\n      <a href=\"NotImplementedError.html\">NotImplementedError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Number\"
+        data-name=\"number\">\n      <a href=\"Number.html\">Number</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Number/Primitive\"
+        data-name=\"number::primitive\">\n      <a href=\"Number/Primitive.html\">Primitive</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/OAuth\" data-name=\"oauth\">\n
+        \     <a href=\"OAuth.html\">OAuth</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/OAuth/AccessToken\" data-name=\"oauth::accesstoken\">\n
+        \     <a href=\"OAuth/AccessToken.html\">AccessToken</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth/Consumer\"
+        data-name=\"oauth::consumer\">\n      <a href=\"OAuth/Consumer.html\">Consumer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth/Error\"
+        data-name=\"oauth::error\">\n      <a href=\"OAuth/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth/RequestToken\"
+        data-name=\"oauth::requesttoken\">\n      <a href=\"OAuth/RequestToken.html\">RequestToken</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/OAuth2\" data-name=\"oauth2\">\n
+        \     <a href=\"OAuth2.html\">OAuth2</a>\n      \n        <ul>\n  \n  <li
+        class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OAuth2/AccessToken\"
+        data-name=\"oauth2::accesstoken\">\n      <a href=\"OAuth2/AccessToken.html\">AccessToken</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth2/AccessToken/Bearer\"
+        data-name=\"oauth2::accesstoken::bearer\">\n      <a href=\"OAuth2/AccessToken/Bearer.html\">Bearer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth2/AccessToken/Mac\"
+        data-name=\"oauth2::accesstoken::mac\">\n      <a href=\"OAuth2/AccessToken/Mac.html\">Mac</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth2/Client\"
+        data-name=\"oauth2::client\">\n      <a href=\"OAuth2/Client.html\">Client</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth2/Error\"
+        data-name=\"oauth2::error\">\n      <a href=\"OAuth2/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OAuth2/Session\"
+        data-name=\"oauth2::session\">\n      <a href=\"OAuth2/Session.html\">Session</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Object\"
+        data-name=\"object\">\n      <a href=\"Object.html\">Object</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL\"
+        data-name=\"openssl\">\n      <a href=\"OpenSSL.html\">OpenSSL</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Algorithm\"
+        data-name=\"openssl::algorithm\">\n      <a href=\"OpenSSL/Algorithm.html\">Algorithm</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Cipher\"
+        data-name=\"openssl::cipher\">\n      <a href=\"OpenSSL/Cipher.html\">Cipher</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Cipher/Error\"
+        data-name=\"openssl::cipher::error\">\n      <a href=\"OpenSSL/Cipher/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Digest\" data-name=\"openssl::digest\">\n
+        \     <a href=\"OpenSSL/Digest.html\">Digest</a>\n      \n        <ul>\n  \n
+        \ <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Digest/Error\"
+        data-name=\"openssl::digest::error\">\n      <a href=\"OpenSSL/Digest/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Digest/UnsupportedError\"
+        data-name=\"openssl::digest::unsupportederror\">\n      <a href=\"OpenSSL/Digest/UnsupportedError.html\">UnsupportedError</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/DigestBase\"
+        data-name=\"openssl::digestbase\">\n      <a href=\"OpenSSL/DigestBase.html\">DigestBase</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/DigestIO\"
+        data-name=\"openssl::digestio\">\n      <a href=\"OpenSSL/DigestIO.html\">DigestIO</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/DigestIO/DigestMode\"
+        data-name=\"openssl::digestio::digestmode\">\n      <a href=\"OpenSSL/DigestIO/DigestMode.html\">DigestMode</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/Error\"
+        data-name=\"openssl::error\">\n      <a href=\"OpenSSL/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/HMAC\"
+        data-name=\"openssl::hmac\">\n      <a href=\"OpenSSL/HMAC.html\">HMAC</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/MD5\"
+        data-name=\"openssl::md5\">\n      <a href=\"OpenSSL/MD5.html\">MD5</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/PKCS5\"
+        data-name=\"openssl::pkcs5\">\n      <a href=\"OpenSSL/PKCS5.html\">PKCS5</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SHA1\"
+        data-name=\"openssl::sha1\">\n      <a href=\"OpenSSL/SHA1.html\">SHA1</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL\"
+        data-name=\"openssl::ssl\">\n      <a href=\"OpenSSL/SSL.html\">SSL</a>\n
+        \     \n        <ul>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Context\"
+        data-name=\"openssl::ssl::context\">\n      <a href=\"OpenSSL/SSL/Context.html\">Context</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Context/Client\"
+        data-name=\"openssl::ssl::context::client\">\n      <a href=\"OpenSSL/SSL/Context/Client.html\">Client</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Context/Server\"
+        data-name=\"openssl::ssl::context::server\">\n      <a href=\"OpenSSL/SSL/Context/Server.html\">Server</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Error\"
+        data-name=\"openssl::ssl::error\">\n      <a href=\"OpenSSL/SSL/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/ErrorType\"
+        data-name=\"openssl::ssl::errortype\">\n      <a href=\"OpenSSL/SSL/ErrorType.html\">ErrorType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Modes\"
+        data-name=\"openssl::ssl::modes\">\n      <a href=\"OpenSSL/SSL/Modes.html\">Modes</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Options\"
+        data-name=\"openssl::ssl::options\">\n      <a href=\"OpenSSL/SSL/Options.html\">Options</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Server\"
+        data-name=\"openssl::ssl::server\">\n      <a href=\"OpenSSL/SSL/Server.html\">Server</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Socket\"
+        data-name=\"openssl::ssl::socket\">\n      <a href=\"OpenSSL/SSL/Socket.html\">Socket</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Socket/Client\"
+        data-name=\"openssl::ssl::socket::client\">\n      <a href=\"OpenSSL/SSL/Socket/Client.html\">Client</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/Socket/Server\"
+        data-name=\"openssl::ssl::socket::server\">\n      <a href=\"OpenSSL/SSL/Socket/Server.html\">Server</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/VerifyMode\"
+        data-name=\"openssl::ssl::verifymode\">\n      <a href=\"OpenSSL/SSL/VerifyMode.html\">VerifyMode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OpenSSL/SSL/X509VerifyFlags\"
+        data-name=\"openssl::ssl::x509verifyflags\">\n      <a href=\"OpenSSL/SSL/X509VerifyFlags.html\">X509VerifyFlags</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/OptionParser\"
+        data-name=\"optionparser\">\n      <a href=\"OptionParser.html\">OptionParser</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OptionParser/Exception\"
+        data-name=\"optionparser::exception\">\n      <a href=\"OptionParser/Exception.html\">Exception</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OptionParser/InvalidOption\"
+        data-name=\"optionparser::invalidoption\">\n      <a href=\"OptionParser/InvalidOption.html\">InvalidOption</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OptionParser/MissingOption\"
+        data-name=\"optionparser::missingoption\">\n      <a href=\"OptionParser/MissingOption.html\">MissingOption</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/OverflowError\"
+        data-name=\"overflowerror\">\n      <a href=\"OverflowError.html\">OverflowError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Path\"
+        data-name=\"path\">\n      <a href=\"Path.html\">Path</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Path/Error\"
+        data-name=\"path::error\">\n      <a href=\"Path/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Path/Kind\"
+        data-name=\"path::kind\">\n      <a href=\"Path/Kind.html\">Kind</a>\n      \n
+        \   </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Pointer\"
+        data-name=\"pointer(t)\">\n      <a href=\"Pointer.html\">Pointer</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Pointer/Appender\"
+        data-name=\"pointer::appender(t)\">\n      <a href=\"Pointer/Appender.html\">Appender</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/PrettyPrint\"
+        data-name=\"prettyprint\">\n      <a href=\"PrettyPrint.html\">PrettyPrint</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Proc\"
+        data-name=\"proc(*t, r)\">\n      <a href=\"Proc.html\">Proc</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Process\"
+        data-name=\"process\">\n      <a href=\"Process.html\">Process</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/Env\"
+        data-name=\"process::env\">\n      <a href=\"Process/Env.html\">Env</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/ExecStdio\"
+        data-name=\"process::execstdio\">\n      <a href=\"Process/ExecStdio.html\">ExecStdio</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/Redirect\"
+        data-name=\"process::redirect\">\n      <a href=\"Process/Redirect.html\">Redirect</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/Status\"
+        data-name=\"process::status\">\n      <a href=\"Process/Status.html\">Status</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/Stdio\"
+        data-name=\"process::stdio\">\n      <a href=\"Process/Stdio.html\">Stdio</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Process/Tms\"
+        data-name=\"process::tms\">\n      <a href=\"Process/Tms.html\">Tms</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Random\" data-name=\"random\">\n
+        \     <a href=\"Random.html\">Random</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Random/ISAAC\" data-name=\"random::isaac\">\n
+        \     <a href=\"Random/ISAAC.html\">ISAAC</a>\n      \n    </li>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Random/PCG32\" data-name=\"random::pcg32\">\n
+        \     <a href=\"Random/PCG32.html\">PCG32</a>\n      \n    </li>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Random/Secure\" data-name=\"random::secure\">\n
+        \     <a href=\"Random/Secure.html\">Secure</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Range\"
+        data-name=\"range(b, e)\">\n      <a href=\"Range.html\">Range</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Reference\"
+        data-name=\"reference\">\n      <a href=\"Reference.html\">Reference</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Regex\"
+        data-name=\"regex\">\n      <a href=\"Regex.html\">Regex</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Regex/MatchData\"
+        data-name=\"regex::matchdata\">\n      <a href=\"Regex/MatchData.html\">MatchData</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Regex/Options\"
+        data-name=\"regex::options\">\n      <a href=\"Regex/Options.html\">Options</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/RuntimeError\"
+        data-name=\"runtimeerror\">\n      <a href=\"RuntimeError.html\">RuntimeError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/SemanticVersion\"
+        data-name=\"semanticversion\">\n      <a href=\"SemanticVersion.html\">SemanticVersion</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/SemanticVersion/Prerelease\"
+        data-name=\"semanticversion::prerelease\">\n      <a href=\"SemanticVersion/Prerelease.html\">Prerelease</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Set\"
+        data-name=\"set(t)\">\n      <a href=\"Set.html\">Set</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Signal\" data-name=\"signal\">\n
+        \     <a href=\"Signal.html\">Signal</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Slice\" data-name=\"slice(t)\">\n
+        \     <a href=\"Slice.html\">Slice</a>\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Socket\" data-name=\"socket\">\n
+        \     <a href=\"Socket.html\">Socket</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Address\" data-name=\"socket::address\">\n
+        \     <a href=\"Socket/Address.html\">Address</a>\n      \n    </li>\n  \n
+        \ <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Socket/Addrinfo\"
+        data-name=\"socket::addrinfo\">\n      <a href=\"Socket/Addrinfo.html\">Addrinfo</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Addrinfo/Error\"
+        data-name=\"socket::addrinfo::error\">\n      <a href=\"Socket/Addrinfo/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/BindError\"
+        data-name=\"socket::binderror\">\n      <a href=\"Socket/BindError.html\">BindError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/ConnectError\"
+        data-name=\"socket::connecterror\">\n      <a href=\"Socket/ConnectError.html\">ConnectError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Error\"
+        data-name=\"socket::error\">\n      <a href=\"Socket/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Family\"
+        data-name=\"socket::family\">\n      <a href=\"Socket/Family.html\">Family</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/IPAddress\"
+        data-name=\"socket::ipaddress\">\n      <a href=\"Socket/IPAddress.html\">IPAddress</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Protocol\"
+        data-name=\"socket::protocol\">\n      <a href=\"Socket/Protocol.html\">Protocol</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Server\"
+        data-name=\"socket::server\">\n      <a href=\"Socket/Server.html\">Server</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/Type\"
+        data-name=\"socket::type\">\n      <a href=\"Socket/Type.html\">Type</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Socket/UNIXAddress\"
+        data-name=\"socket::unixaddress\">\n      <a href=\"Socket/UNIXAddress.html\">UNIXAddress</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Spec\" data-name=\"spec\">\n
+        \     <a href=\"Spec.html\">Spec</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Spec/Context\" data-name=\"spec::context\">\n
+        \     <a href=\"Spec/Context.html\">Context</a>\n      \n    </li>\n  \n  <li
+        class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Spec/Example\"
+        data-name=\"spec::example\">\n      <a href=\"Spec/Example.html\">Example</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/Example/Procsy\"
+        data-name=\"spec::example::procsy\">\n      <a href=\"Spec/Example/Procsy.html\">Procsy</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Spec/ExampleGroup\" data-name=\"spec::examplegroup\">\n
+        \     <a href=\"Spec/ExampleGroup.html\">ExampleGroup</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/ExampleGroup/Procsy\"
+        data-name=\"spec::examplegroup::procsy\">\n      <a href=\"Spec/ExampleGroup/Procsy.html\">Procsy</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/Expectations\"
+        data-name=\"spec::expectations\">\n      <a href=\"Spec/Expectations.html\">Expectations</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/Item\"
+        data-name=\"spec::item\">\n      <a href=\"Spec/Item.html\">Item</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/Methods\"
+        data-name=\"spec::methods\">\n      <a href=\"Spec/Methods.html\">Methods</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/ObjectExtensions\"
+        data-name=\"spec::objectextensions\">\n      <a href=\"Spec/ObjectExtensions.html\">ObjectExtensions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Spec/SplitFilter\"
+        data-name=\"spec::splitfilter\">\n      <a href=\"Spec/SplitFilter.html\">SplitFilter</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/StaticArray\"
+        data-name=\"staticarray(t, n)\">\n      <a href=\"StaticArray.html\">StaticArray</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/String\"
+        data-name=\"string\">\n      <a href=\"String.html\">String</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/String/Builder\"
+        data-name=\"string::builder\">\n      <a href=\"String/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/String/RawConverter\"
+        data-name=\"string::rawconverter\">\n      <a href=\"String/RawConverter.html\">RawConverter</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/StringPool\"
+        data-name=\"stringpool\">\n      <a href=\"StringPool.html\">StringPool</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/StringScanner\"
+        data-name=\"stringscanner\">\n      <a href=\"StringScanner.html\">StringScanner</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Struct\"
+        data-name=\"struct\">\n      <a href=\"Struct.html\">Struct</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Symbol\"
+        data-name=\"symbol\">\n      <a href=\"Symbol.html\">Symbol</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/System\"
+        data-name=\"system\">\n      <a href=\"System.html\">System</a>\n      \n
+        \       <ul>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/System/Group\"
+        data-name=\"system::group\">\n      <a href=\"System/Group.html\">Group</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/System/Group/NotFoundError\"
+        data-name=\"system::group::notfounderror\">\n      <a href=\"System/Group/NotFoundError.html\">NotFoundError</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/System/User\" data-name=\"system::user\">\n
+        \     <a href=\"System/User.html\">User</a>\n      \n        <ul>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/System/User/NotFoundError\"
+        data-name=\"system::user::notfounderror\">\n      <a href=\"System/User/NotFoundError.html\">NotFoundError</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/SystemError\"
+        data-name=\"systemerror\">\n      <a href=\"SystemError.html\">SystemError</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/SystemError/ClassMethods\"
+        data-name=\"systemerror::classmethods\">\n      <a href=\"SystemError/ClassMethods.html\">ClassMethods</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/TCPServer\"
+        data-name=\"tcpserver\">\n      <a href=\"TCPServer.html\">TCPServer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/TCPSocket\"
+        data-name=\"tcpsocket\">\n      <a href=\"TCPSocket.html\">TCPSocket</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Termios\"
+        data-name=\"termios\">\n      <a href=\"Termios.html\">Termios</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/AttributeSelection\"
+        data-name=\"termios::attributeselection\">\n      <a href=\"Termios/AttributeSelection.html\">AttributeSelection</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/BaudRate\"
+        data-name=\"termios::baudrate\">\n      <a href=\"Termios/BaudRate.html\">BaudRate</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/ControlMode\"
+        data-name=\"termios::controlmode\">\n      <a href=\"Termios/ControlMode.html\">ControlMode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/InputMode\"
+        data-name=\"termios::inputmode\">\n      <a href=\"Termios/InputMode.html\">InputMode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/LineControl\"
+        data-name=\"termios::linecontrol\">\n      <a href=\"Termios/LineControl.html\">LineControl</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/LocalMode\"
+        data-name=\"termios::localmode\">\n      <a href=\"Termios/LocalMode.html\">LocalMode</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Termios/OutputMode\"
+        data-name=\"termios::outputmode\">\n      <a href=\"Termios/OutputMode.html\">OutputMode</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Time\" data-name=\"time\">\n
+        \     <a href=\"Time.html\">Time</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Time/DayOfWeek\" data-name=\"time::dayofweek\">\n
+        \     <a href=\"Time/DayOfWeek.html\">DayOfWeek</a>\n      \n    </li>\n  \n
+        \ <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/EpochConverter\"
+        data-name=\"time::epochconverter\">\n      <a href=\"Time/EpochConverter.html\">EpochConverter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/EpochMillisConverter\"
+        data-name=\"time::epochmillisconverter\">\n      <a href=\"Time/EpochMillisConverter.html\">EpochMillisConverter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/FloatingTimeConversionError\"
+        data-name=\"time::floatingtimeconversionerror\">\n      <a href=\"Time/FloatingTimeConversionError.html\">FloatingTimeConversionError</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Time/Format\"
+        data-name=\"time::format\">\n      <a href=\"Time/Format.html\">Format</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/Error\"
+        data-name=\"time::format::error\">\n      <a href=\"Time/Format/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/HTTP_DATE\"
+        data-name=\"time::format::http_date\">\n      <a href=\"Time/Format/HTTP_DATE.html\">HTTP_DATE</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/ISO_8601_DATE\"
+        data-name=\"time::format::iso_8601_date\">\n      <a href=\"Time/Format/ISO_8601_DATE.html\">ISO_8601_DATE</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/ISO_8601_DATE_TIME\"
+        data-name=\"time::format::iso_8601_date_time\">\n      <a href=\"Time/Format/ISO_8601_DATE_TIME.html\">ISO_8601_DATE_TIME</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/ISO_8601_TIME\"
+        data-name=\"time::format::iso_8601_time\">\n      <a href=\"Time/Format/ISO_8601_TIME.html\">ISO_8601_TIME</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/RFC_2822\"
+        data-name=\"time::format::rfc_2822\">\n      <a href=\"Time/Format/RFC_2822.html\">RFC_2822</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/RFC_3339\"
+        data-name=\"time::format::rfc_3339\">\n      <a href=\"Time/Format/RFC_3339.html\">RFC_3339</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Format/YAML_DATE\"
+        data-name=\"time::format::yaml_date\">\n      <a href=\"Time/Format/YAML_DATE.html\">YAML_DATE</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/Time/Location\" data-name=\"time::location\">\n
+        \     <a href=\"Time/Location.html\">Location</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Location/InvalidLocationNameError\"
+        data-name=\"time::location::invalidlocationnameerror\">\n      <a href=\"Time/Location/InvalidLocationNameError.html\">InvalidLocationNameError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Location/InvalidTimezoneOffsetError\"
+        data-name=\"time::location::invalidtimezoneoffseterror\">\n      <a href=\"Time/Location/InvalidTimezoneOffsetError.html\">InvalidTimezoneOffsetError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Location/InvalidTZDataError\"
+        data-name=\"time::location::invalidtzdataerror\">\n      <a href=\"Time/Location/InvalidTZDataError.html\">InvalidTZDataError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Location/Zone\"
+        data-name=\"time::location::zone\">\n      <a href=\"Time/Location/Zone.html\">Zone</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/MonthSpan\"
+        data-name=\"time::monthspan\">\n      <a href=\"Time/MonthSpan.html\">MonthSpan</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Time/Span\"
+        data-name=\"time::span\">\n      <a href=\"Time/Span.html\">Span</a>\n      \n
+        \   </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Tuple\"
+        data-name=\"tuple(*t)\">\n      <a href=\"Tuple.html\">Tuple</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/TypeCastError\"
+        data-name=\"typecasterror\">\n      <a href=\"TypeCastError.html\">TypeCastError</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UDPSocket\"
+        data-name=\"udpsocket\">\n      <a href=\"UDPSocket.html\">UDPSocket</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UInt128\"
+        data-name=\"uint128\">\n      <a href=\"UInt128.html\">UInt128</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UInt16\"
+        data-name=\"uint16\">\n      <a href=\"UInt16.html\">UInt16</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UInt32\"
+        data-name=\"uint32\">\n      <a href=\"UInt32.html\">UInt32</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UInt64\"
+        data-name=\"uint64\">\n      <a href=\"UInt64.html\">UInt64</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UInt8\"
+        data-name=\"uint8\">\n      <a href=\"UInt8.html\">UInt8</a>\n      \n    </li>\n
+        \ \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/Unicode\"
+        data-name=\"unicode\">\n      <a href=\"Unicode.html\">Unicode</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Unicode/CaseOptions\"
+        data-name=\"unicode::caseoptions\">\n      <a href=\"Unicode/CaseOptions.html\">CaseOptions</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Union\"
+        data-name=\"union(*t)\">\n      <a href=\"Union.html\">Union</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UNIXServer\"
+        data-name=\"unixserver\">\n      <a href=\"UNIXServer.html\">UNIXServer</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/UNIXSocket\"
+        data-name=\"unixsocket\">\n      <a href=\"UNIXSocket.html\">UNIXSocket</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/URI\"
+        data-name=\"uri\">\n      <a href=\"URI.html\">URI</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/URI/Error\"
+        data-name=\"uri::error\">\n      <a href=\"URI/Error.html\">Error</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/URI/Punycode\"
+        data-name=\"uri::punycode\">\n      <a href=\"URI/Punycode.html\">Punycode</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/UUID\" data-name=\"uuid\">\n
+        \     <a href=\"UUID.html\">UUID</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/UUID/Error\" data-name=\"uuid::error\">\n
+        \     <a href=\"UUID/Error.html\">Error</a>\n      \n    </li>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/UUID/Variant\" data-name=\"uuid::variant\">\n
+        \     <a href=\"UUID/Variant.html\">Variant</a>\n      \n    </li>\n  \n  <li
+        class=\" \" data-id=\"github.com/crystal-lang/crystal/UUID/Version\" data-name=\"uuid::version\">\n
+        \     <a href=\"UUID/Version.html\">Version</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/VaList\"
+        data-name=\"valist\">\n      <a href=\"VaList.html\">VaList</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Value\"
+        data-name=\"value\">\n      <a href=\"Value.html\">Value</a>\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/WeakRef\"
+        data-name=\"weakref(t)\">\n      <a href=\"WeakRef.html\">WeakRef</a>\n      \n
+        \   </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/XML\"
+        data-name=\"xml\">\n      <a href=\"XML.html\">XML</a>\n      \n        <ul>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Attributes\"
+        data-name=\"xml::attributes\">\n      <a href=\"XML/Attributes.html\">Attributes</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/AttributeType\"
+        data-name=\"xml::attributetype\">\n      <a href=\"XML/AttributeType.html\">AttributeType</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Builder\"
+        data-name=\"xml::builder\">\n      <a href=\"XML/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Error\"
+        data-name=\"xml::error\">\n      <a href=\"XML/Error.html\">Error</a>\n      \n
+        \   </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/HTMLParserOptions\"
+        data-name=\"xml::htmlparseroptions\">\n      <a href=\"XML/HTMLParserOptions.html\">HTMLParserOptions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Namespace\"
+        data-name=\"xml::namespace\">\n      <a href=\"XML/Namespace.html\">Namespace</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/XML/Node\"
+        data-name=\"xml::node\">\n      <a href=\"XML/Node.html\">Node</a>\n      \n
+        \       <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Node/Type\"
+        data-name=\"xml::node::type\">\n      <a href=\"XML/Node/Type.html\">Type</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/NodeSet\"
+        data-name=\"xml::nodeset\">\n      <a href=\"XML/NodeSet.html\">NodeSet</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/ParserOptions\"
+        data-name=\"xml::parseroptions\">\n      <a href=\"XML/ParserOptions.html\">ParserOptions</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/XML/Reader\"
+        data-name=\"xml::reader\">\n      <a href=\"XML/Reader.html\">Reader</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/Reader/Type\"
+        data-name=\"xml::reader::type\">\n      <a href=\"XML/Reader/Type.html\">Type</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/SaveOptions\"
+        data-name=\"xml::saveoptions\">\n      <a href=\"XML/SaveOptions.html\">SaveOptions</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/XML/XPathContext\"
+        data-name=\"xml::xpathcontext\">\n      <a href=\"XML/XPathContext.html\">XPathContext</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/YAML\" data-name=\"yaml\">\n
+        \     <a href=\"YAML.html\">YAML</a>\n      \n        <ul>\n  \n  <li class=\"parent
+        \" data-id=\"github.com/crystal-lang/crystal/YAML/Any\" data-name=\"yaml::any\">\n
+        \     <a href=\"YAML/Any.html\">Any</a>\n      \n        <ul>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/YAML/Any/Type\" data-name=\"yaml::any::type\">\n
+        \     <a href=\"YAML/Any/Type.html\">Type</a>\n      \n    </li>\n  \n</ul>\n\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/ArrayConverter\"
+        data-name=\"yaml::arrayconverter(converter)\">\n      <a href=\"YAML/ArrayConverter.html\">ArrayConverter</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Builder\"
+        data-name=\"yaml::builder\">\n      <a href=\"YAML/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Error\"
+        data-name=\"yaml::error\">\n      <a href=\"YAML/Error.html\">Error</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/EventKind\"
+        data-name=\"yaml::eventkind\">\n      <a href=\"YAML/EventKind.html\">EventKind</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Field\"
+        data-name=\"yaml::field\">\n      <a href=\"YAML/Field.html\">Field</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/MappingStyle\"
+        data-name=\"yaml::mappingstyle\">\n      <a href=\"YAML/MappingStyle.html\">MappingStyle</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes\"
+        data-name=\"yaml::nodes\">\n      <a href=\"YAML/Nodes.html\">Nodes</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Alias\"
+        data-name=\"yaml::nodes::alias\">\n      <a href=\"YAML/Nodes/Alias.html\">Alias</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Builder\"
+        data-name=\"yaml::nodes::builder\">\n      <a href=\"YAML/Nodes/Builder.html\">Builder</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Document\"
+        data-name=\"yaml::nodes::document\">\n      <a href=\"YAML/Nodes/Document.html\">Document</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Mapping\"
+        data-name=\"yaml::nodes::mapping\">\n      <a href=\"YAML/Nodes/Mapping.html\">Mapping</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Node\"
+        data-name=\"yaml::nodes::node\">\n      <a href=\"YAML/Nodes/Node.html\">Node</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Scalar\"
+        data-name=\"yaml::nodes::scalar\">\n      <a href=\"YAML/Nodes/Scalar.html\">Scalar</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Nodes/Sequence\"
+        data-name=\"yaml::nodes::sequence\">\n      <a href=\"YAML/Nodes/Sequence.html\">Sequence</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/ParseContext\"
+        data-name=\"yaml::parsecontext\">\n      <a href=\"YAML/ParseContext.html\">ParseContext</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/ParseException\"
+        data-name=\"yaml::parseexception\">\n      <a href=\"YAML/ParseException.html\">ParseException</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/PullParser\"
+        data-name=\"yaml::pullparser\">\n      <a href=\"YAML/PullParser.html\">PullParser</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/ScalarStyle\"
+        data-name=\"yaml::scalarstyle\">\n      <a href=\"YAML/ScalarStyle.html\">ScalarStyle</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/YAML/Schema\"
+        data-name=\"yaml::schema\">\n      <a href=\"YAML/Schema.html\">Schema</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Schema/Core\"
+        data-name=\"yaml::schema::core\">\n      <a href=\"YAML/Schema/Core.html\">Core</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Schema/FailSafe\"
+        data-name=\"yaml::schema::failsafe\">\n      <a href=\"YAML/Schema/FailSafe.html\">FailSafe</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/SequenceStyle\"
+        data-name=\"yaml::sequencestyle\">\n      <a href=\"YAML/SequenceStyle.html\">SequenceStyle</a>\n
+        \     \n    </li>\n  \n  <li class=\"parent \" data-id=\"github.com/crystal-lang/crystal/YAML/Serializable\"
+        data-name=\"yaml::serializable\">\n      <a href=\"YAML/Serializable.html\">Serializable</a>\n
+        \     \n        <ul>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Serializable/Options\"
+        data-name=\"yaml::serializable::options\">\n      <a href=\"YAML/Serializable/Options.html\">Options</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Serializable/Strict\"
+        data-name=\"yaml::serializable::strict\">\n      <a href=\"YAML/Serializable/Strict.html\">Strict</a>\n
+        \     \n    </li>\n  \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/YAML/Serializable/Unmapped\"
+        data-name=\"yaml::serializable::unmapped\">\n      <a href=\"YAML/Serializable/Unmapped.html\">Unmapped</a>\n
+        \     \n    </li>\n  \n</ul>\n\n      \n    </li>\n  \n</ul>\n\n      \n    </li>\n
+        \ \n  <li class=\" \" data-id=\"github.com/crystal-lang/crystal/Zip\" data-name=\"zip\">\n
+        \     <a href=\"Zip.html\">Zip</a>\n      \n    </li>\n  \n  <li class=\"
+        \" data-id=\"github.com/crystal-lang/crystal/Zlib\" data-name=\"zlib\">\n
+        \     <a href=\"Zlib.html\">Zlib</a>\n      \n    </li>\n  \n</ul>\n\n  </div>\n</div>\n\n\n<div
+        class=\"main-content\">\n<h1 class=\"type-name\">\n\n  <span class=\"kind\">abstract
+        class</span> Class\n\n</h1>\n\n\n  <ul class=\"superclass-hierarchy\"><li
+        class=\"superclass\"><a href=\"Class.html\">Class</a></li><li class=\"superclass\"><a
+        href=\"Value.html\">Value</a></li><li class=\"superclass\"><a href=\"Object.html\">Object</a></li></ul>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        \ <h2>\n    <a id=\"defined-in\" class=\"anchor\" href=\"#defined-in\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Defined in:\n  </h2>\n  \n    \n      <a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L1\"
+        target=\"_blank\">\n        class.cr\n      </a>\n    \n    <br/>\n  \n    \n
+        \     <a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/primitives.cr#L54\"
+        target=\"_blank\">\n        primitives.cr\n      </a>\n    \n    <br/>\n  \n\n\n\n\n\n
+        \ <h2>\n    <a id=\"constructors\" class=\"anchor\" href=\"#constructors\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Constructors\n  </h2>\n  <ul class=\"list-summary\">\n
+        \   \n      <li class=\"entry-summary\">\n        <a href=\"#cast(other):self-class-method\"
+        class=\"signature\"><strong>.cast</strong>(other) : <span class=\"k\">self</span></a>\n
+        \       \n          <div class=\"summary\"><p>Casts <em>other</em> to this
+        class.</p></div>\n        \n      </li>\n    \n  </ul>\n\n\n\n  <h2>\n    <a
+        id=\"class-method-summary\" class=\"anchor\" href=\"#class-method-summary\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Class Method Summary\n  </h2>\n  <ul class=\"list-summary\">\n
+        \   \n      <li class=\"entry-summary\">\n        <a href=\"#T.class):BoolforallT-class-method\"
+        class=\"signature\"><strong>.<</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : Bool forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class inherits or includes <em>other</em>.</p></div>\n        \n
+        \     </li>\n    \n      <li class=\"entry-summary\">\n        <a href=\"#T.class):BoolforallT-class-method\"
+        class=\"signature\"><strong>.<=</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : Bool forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class inherits or includes <em>other</em>, or is equal to <em>other</em>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#==(other:Class):Bool-class-method\" class=\"signature\"><strong>.==</strong>(other
+        : Class) : Bool</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class is the same as <em>other</em>.</p></div>\n        \n      </li>\n
+        \   \n      <li class=\"entry-summary\">\n        <a href=\"#===(other)-class-method\"
+        class=\"signature\"><strong>.===</strong>(other)</a>\n        \n          <div
+        class=\"summary\"><p>Case equality.</p></div>\n        \n      </li>\n    \n
+        \     <li class=\"entry-summary\">\n        <a href=\"#%3E(other:T.class)forallT-class-method\"
+        class=\"signature\"><strong>.></strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#%3E=(other:T.class)forallT-class-method\" class=\"signature\"><strong>.>=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T</a>\n
+        \       \n          <div class=\"summary\"><p>Returns whether <em>other</em>
+        inherits or includes <code>self</code>, or is equal to <code>self</code>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#clone-class-method\" class=\"signature\"><strong>.clone</strong></a>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#dup-class-method\" class=\"signature\"><strong>.dup</strong></a>\n
+        \       \n          <div class=\"summary\"><p>Returns a shallow copy of this
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#hash(hasher)-class-method\" class=\"signature\"><strong>.hash</strong>(hasher)</a>\n
+        \       \n          <div class=\"summary\"><p>See <code><a href=\"Object.html#hash(hasher)-instance-method\">Object#hash(hasher)</a></code></p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#inspect(io:IO):Nil-class-method\" class=\"signature\"><strong>.inspect</strong>(io
+        : IO) : Nil</a>\n        \n          <div class=\"summary\"><p>Appends a string
+        representation of this object to the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#name:String-class-method\" class=\"signature\"><strong>.name</strong>
+        : String</a>\n        \n          <div class=\"summary\"><p>Returns the name
+        of this class.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#nilable?-class-method\" class=\"signature\"><strong>.nilable?</strong></a>\n
+        \       \n          <div class=\"summary\"><p>Returns <code>true</code> if
+        this class is <code><a href=\"Nil.html\">Nil</a></code>.</p></div>\n        \n
+        \     </li>\n    \n      <li class=\"entry-summary\">\n        <a href=\"#to_s(io:IO):Nil-class-method\"
+        class=\"signature\"><strong>.to_s</strong>(io : IO) : Nil</a>\n        \n
+        \         <div class=\"summary\"><p>Appends a <code><a href=\"String.html\">String</a></code>
+        representation of this object to the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#%7C(other:U.class)forallU-class-method\" class=\"signature\"><strong>.|</strong>(other
+        : <span class=\"t\">U</span>.<span class=\"k\">class</span>) forall U</a>\n
+        \       \n          <div class=\"summary\"><p>Returns the union type of <code>self</code>
+        and <em>other</em>.</p></div>\n        \n      </li>\n    \n  </ul>\n\n\n\n
+        \ <h2>\n    <a id=\"instance-method-summary\" class=\"anchor\" href=\"#instance-method-summary\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Instance Method Summary\n  </h2>\n  <ul class=\"list-summary\">\n
+        \   \n      <li class=\"entry-summary\">\n        <a href=\"#T.class):BoolforallT-instance-method\"
+        class=\"signature\"><strong>#<</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : Bool forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class inherits or includes <em>other</em>.</p></div>\n        \n
+        \     </li>\n    \n      <li class=\"entry-summary\">\n        <a href=\"#T.class):BoolforallT-instance-method\"
+        class=\"signature\"><strong>#<=</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : Bool forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class inherits or includes <em>other</em>, or is equal to <em>other</em>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#==(other:Class):Bool-instance-method\" class=\"signature\"><strong>#==</strong>(other
+        : Class) : Bool</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether this class is the same as <em>other</em>.</p></div>\n        \n      </li>\n
+        \   \n      <li class=\"entry-summary\">\n        <a href=\"#===(other)-instance-method\"
+        class=\"signature\"><strong>#===</strong>(other)</a>\n        \n          <div
+        class=\"summary\"><p>Case equality.</p></div>\n        \n      </li>\n    \n
+        \     <li class=\"entry-summary\">\n        <a href=\"#%3E(other:T.class)forallT-instance-method\"
+        class=\"signature\"><strong>#></strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) forall T</a>\n        \n          <div class=\"summary\"><p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#%3E=(other:T.class)forallT-instance-method\" class=\"signature\"><strong>#>=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T</a>\n
+        \       \n          <div class=\"summary\"><p>Returns whether <em>other</em>
+        inherits or includes <code>self</code>, or is equal to <code>self</code>.</p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#cast(other):self-instance-method\" class=\"signature\"><strong>#cast</strong>(other)
+        : <span class=\"k\">self</span></a>\n        \n          <div class=\"summary\"><p>Casts
+        <em>other</em> to this class.</p></div>\n        \n      </li>\n    \n      <li
+        class=\"entry-summary\">\n        <a href=\"#clone-instance-method\" class=\"signature\"><strong>#clone</strong></a>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#dup-instance-method\" class=\"signature\"><strong>#dup</strong></a>\n
+        \       \n          <div class=\"summary\"><p>Returns a shallow copy of this
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#hash(hasher)-instance-method\" class=\"signature\"><strong>#hash</strong>(hasher)</a>\n
+        \       \n          <div class=\"summary\"><p>See <code><a href=\"Object.html#hash(hasher)-instance-method\">Object#hash(hasher)</a></code></p></div>\n
+        \       \n      </li>\n    \n      <li class=\"entry-summary\">\n        <a
+        href=\"#inspect(io:IO):Nil-instance-method\" class=\"signature\"><strong>#inspect</strong>(io
+        : IO) : Nil</a>\n        \n          <div class=\"summary\"><p>Appends a string
+        representation of this object to the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#name:String-instance-method\" class=\"signature\"><strong>#name</strong>
+        : String</a>\n        \n          <div class=\"summary\"><p>Returns the name
+        of this class.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#nilable?-instance-method\" class=\"signature\"><strong>#nilable?</strong></a>\n
+        \       \n          <div class=\"summary\"><p>Returns <code>true</code> if
+        this class is <code><a href=\"Nil.html\">Nil</a></code>.</p></div>\n        \n
+        \     </li>\n    \n      <li class=\"entry-summary\">\n        <a href=\"#to_s(io:IO):Nil-instance-method\"
+        class=\"signature\"><strong>#to_s</strong>(io : IO) : Nil</a>\n        \n
+        \         <div class=\"summary\"><p>Appends a <code><a href=\"String.html\">String</a></code>
+        representation of this object to the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p></div>\n        \n      </li>\n    \n      <li class=\"entry-summary\">\n
+        \       <a href=\"#%7C(other:U.class)forallU-instance-method\" class=\"signature\"><strong>#|</strong>(other
+        : <span class=\"t\">U</span>.<span class=\"k\">class</span>) forall U</a>\n
+        \       \n          <div class=\"summary\"><p>Returns the union type of <code>self</code>
+        and <em>other</em>.</p></div>\n        \n      </li>\n    \n  </ul>\n\n\n\n\n\n<div
+        class=\"methods-inherited\">\n  \n    \n\n  <h3>Instance methods inherited
+        from struct <code><a href=\"Value.html\">Value</a></code></h3>\n  \n  \n    <a
+        href=\"Value.html#==(other:JSON::Any)-instance-method\" class=\"tooltip\">\n
+        \     <span>==(other : JSON::Any)<br/>==(other : YAML::Any)<br/>==(other)</span>\n
+        \   ==</a>, \n    \n  \n    <a href=\"Value.html#dup-instance-method\" class=\"tooltip\">\n
+        \     <span>dup</span>\n    dup</a>\n    \n  \n\n\n    \n\n\n    \n\n\n  \n
+        \   \n\n  <h3>Instance methods inherited from class <code><a href=\"Object.html\">Object</a></code></h3>\n
+        \ \n  \n    <a href=\"Object.html#!:Bool-instance-method\" class=\"tooltip\">\n
+        \     <span>! : Bool</span>\n    !</a>, \n    \n  \n    <a href=\"Object.html#!=(other)-instance-method\"
+        class=\"tooltip\">\n      <span>!=(other)</span>\n    !=</a>, \n    \n  \n
+        \   <a href=\"Object.html#!~(other)-instance-method\" class=\"tooltip\">\n
+        \     <span>!~(other)</span>\n    !~</a>, \n    \n  \n    <a href=\"Object.html#==(other)-instance-method\"
+        class=\"tooltip\">\n      <span>==(other)</span>\n    ==</a>, \n    \n  \n
+        \   <a href=\"Object.html#===(other:JSON::Any)-instance-method\" class=\"tooltip\">\n
+        \     <span>===(other : JSON::Any)<br/>===(other : YAML::Any)<br/>===(other)</span>\n
+        \   ===</a>, \n    \n  \n    <a href=\"Object.html#=~(other)-instance-method\"
+        class=\"tooltip\">\n      <span>=~(other)</span>\n    =~</a>, \n    \n  \n
+        \   <a href=\"Object.html#as(type:Class)-instance-method\" class=\"tooltip\">\n
+        \     <span>as(type : Class)</span>\n    as</a>, \n    \n  \n    <a href=\"Object.html#as?(type:Class)-instance-method\"
+        class=\"tooltip\">\n      <span>as?(type : Class)</span>\n    as?</a>, \n
+        \   \n  \n    <a href=\"Object.html#class-instance-method\" class=\"tooltip\">\n
+        \     <span>class</span>\n    class</a>, \n    \n  \n    <a href=\"Object.html#dup-instance-method\"
+        class=\"tooltip\">\n      <span>dup</span>\n    dup</a>, \n    \n  \n    <a
+        href=\"Object.html#hash(hasher)-instance-method\" class=\"tooltip\">\n      <span>hash(hasher)<br/>hash</span>\n
+        \   hash</a>, \n    \n  \n    <a href=\"Object.html#in?(*values:Object):Bool-instance-method\"
+        class=\"tooltip\">\n      <span>in?(*values : Object) : Bool<br/>in?(collection)
+        : Bool</span>\n    in?</a>, \n    \n  \n    <a href=\"Object.html#inspect:String-instance-method\"
+        class=\"tooltip\">\n      <span>inspect : String<br/>inspect(io : IO) : Nil</span>\n
+        \   inspect</a>, \n    \n  \n    <a href=\"Object.html#is_a?(type:Class):Bool-instance-method\"
+        class=\"tooltip\">\n      <span>is_a?(type : Class) : Bool</span>\n    is_a?</a>,
+        \n    \n  \n    <a href=\"Object.html#itself-instance-method\" class=\"tooltip\">\n
+        \     <span>itself</span>\n    itself</a>, \n    \n  \n    <a href=\"Object.html#nil?:Bool-instance-method\"
+        class=\"tooltip\">\n      <span>nil? : Bool</span>\n    nil?</a>, \n    \n
+        \ \n    <a href=\"Object.html#not_nil!-instance-method\" class=\"tooltip\">\n
+        \     <span>not_nil!</span>\n    not_nil!</a>, \n    \n  \n    <a href=\"Object.html#pretty_inspect(width=79,newline=&quot;%5Cn&quot;,indent=0):String-instance-method\"
+        class=\"tooltip\">\n      <span>pretty_inspect(width = <span class=\"n\">79</span>,
+        newline = <span class=\"s\">&quot;\\n&quot;</span>, indent = <span class=\"n\">0</span>)
+        : String</span>\n    pretty_inspect</a>, \n    \n  \n    <a href=\"Object.html#pretty_print(pp:PrettyPrint):Nil-instance-method\"
+        class=\"tooltip\">\n      <span>pretty_print(pp : PrettyPrint) : Nil</span>\n
+        \   pretty_print</a>, \n    \n  \n    <a href=\"Object.html#responds_to?(name:Symbol):Bool-instance-method\"
+        class=\"tooltip\">\n      <span>responds_to?(name : Symbol) : Bool</span>\n
+        \   responds_to?</a>, \n    \n  \n    <a href=\"Object.html#tap(&)-instance-method\"
+        class=\"tooltip\">\n      <span>tap(&)</span>\n    tap</a>, \n    \n  \n    <a
+        href=\"Object.html#to_json(io:IO)-instance-method\" class=\"tooltip\">\n      <span>to_json(io
+        : IO)<br/>to_json</span>\n    to_json</a>, \n    \n  \n    <a href=\"Object.html#to_pretty_json(io:IO,indent:String=&quot;&quot;)-instance-method\"
+        class=\"tooltip\">\n      <span>to_pretty_json(io : IO, indent : String =
+        <span class=\"s\">&quot;  &quot;</span>)<br/>to_pretty_json(indent : String
+        = <span class=\"s\">&quot;  &quot;</span>)</span>\n    to_pretty_json</a>,
+        \n    \n  \n    <a href=\"Object.html#to_s:String-instance-method\" class=\"tooltip\">\n
+        \     <span>to_s : String<br/>to_s(io : IO) : Nil</span>\n    to_s</a>, \n
+        \   \n  \n    <a href=\"Object.html#to_yaml(io:IO)-instance-method\" class=\"tooltip\">\n
+        \     <span>to_yaml(io : IO)<br/>to_yaml</span>\n    to_yaml</a>, \n    \n
+        \ \n    <a href=\"Object.html#try(&)-instance-method\" class=\"tooltip\">\n
+        \     <span>try(&)</span>\n    try</a>, \n    \n  \n    <a href=\"Object.html#unsafe_as(type:T.class)forallT-instance-method\"
+        class=\"tooltip\">\n      <span>unsafe_as(type : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) forall T</span>\n    unsafe_as</a>\n    \n  \n\n\n
+        \   \n\n\n    \n\n  <h3>Class methods inherited from class <code><a href=\"Object.html\">Object</a></code></h3>\n
+        \ \n  \n    <a href=\"Object.html#from_json(string_or_io,root:String)-class-method\"
+        class=\"tooltip\">\n      <span>from_json(string_or_io, root : String)<br/>from_json(string_or_io)</span>\n
+        \   from_json</a>, \n    \n  \n    <a href=\"Object.html#from_yaml(string_or_io:String%7CIO)-class-method\"
+        class=\"tooltip\">\n      <span>from_yaml(string_or_io : String | IO)</span>\n
+        \   from_yaml</a>\n    \n  \n\n\n  \n</div>\n\n\n  <h2>\n    <a id=\"constructor-detail\"
+        class=\"anchor\" href=\"#constructor-detail\">\n  <svg class=\"octicon-link\"
+        aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n  </svg>\n</a>\n
+        \   Constructor Detail\n  </h2>\n  \n    <div class=\"entry-detail\" id=\"cast(other):self-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>cast</strong>(other)
+        : <span class=\"k\">self</span>\n\n        <a class=\"method-permalink\" href=\"#cast(other):self-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Casts
+        <em>other</em> to this class.</p>\n\n<p>This is the same as using <code>as</code>,
+        but allows the class to be passed around as\nan argument. See the\n<a href=\"//crystal-lang.org/docs/syntax_and_semantics/as.html\"
+        target=\"_blank\">documentation on as</a>\nfor more information.</p>\n\n<pre><code>klass
+        <span class=\"o\">=</span> <span class=\"t\">Int32</span>\nnumber <span class=\"o\">=</span>
+        [<span class=\"n\">99</span>, <span class=\"s\">&quot;str&quot;</span>][<span
+        class=\"n\">0</span>]\n<span class=\"k\">typeof</span>(number)             <span
+        class=\"c\"># =&gt; (String | Int32)</span>\n<span class=\"k\">typeof</span>(klass.cast(number))
+        <span class=\"c\"># =&gt; Int32</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L123\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n\n\n\n
+        \ <h2>\n    <a id=\"class-method-detail\" class=\"anchor\" href=\"#class-method-detail\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Class Method Detail\n  </h2>\n  \n    <div class=\"entry-detail\"
+        id=\"T.class):BoolforallT-class-method\">\n      <div class=\"signature\">\n
+        \       \n        def self.<strong><</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : <a href=\"Bool.html\">Bool</a> forall T\n\n        <a
+        class=\"method-permalink\" href=\"#T.class):BoolforallT-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class inherits or includes <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;</span> <span class=\"t\">Number</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">&lt;</span> <span class=\"t\">Value</span>   <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Int32</span> <span class=\"o\">&lt;</span>
+        <span class=\"t\">Int32</span>   <span class=\"c\"># =&gt; false</span>\n<span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;=</span> <span class=\"t\">String</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L29\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"T.class):BoolforallT-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong><=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) : <a href=\"Bool.html\">Bool</a>
+        forall T\n\n        <a class=\"method-permalink\" href=\"#T.class):BoolforallT-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class inherits or includes <em>other</em>, or\nis equal to <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;</span> <span class=\"t\">Number</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">&lt;</span> <span class=\"t\">Value</span>   <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Int32</span> <span class=\"o\">&lt;=</span>
+        <span class=\"t\">Int32</span>  <span class=\"c\"># =&gt; true</span>\n<span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;=</span> <span class=\"t\">String</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L44\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"==(other:Class):Bool-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>==</strong>(other
+        : <a href=\"Class.html\">Class</a>) : <a href=\"Bool.html\">Bool</a>\n\n        <a
+        class=\"method-permalink\" href=\"#==(other:Class):Bool-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class is the same as <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">==</span> <span class=\"t\">Int32</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">==</span> <span class=\"t\">String</span> <span class=\"c\">#
+        =&gt; false</span></code></pre>\n        </div>\n      \n      <br/>\n      <div>\n
+        \       \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L17\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"===(other)-class-method\">\n      <div
+        class=\"signature\">\n        \n        def self.<strong>===</strong>(other)\n\n
+        \       <a class=\"method-permalink\" href=\"#===(other)-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Case equality.</p>\n\n<p>The
+        <code><a href=\"Class.html#===(other)-instance-method\">#===</a></code> method
+        is used in a <code>case ... when ... end</code> expression.</p>\n\n<p>For
+        example, this code:</p>\n\n<pre><code><span class=\"k\">case</span> value\n<span
+        class=\"k\">when</span> x\n  <span class=\"c\"># something when x</span>\n<span
+        class=\"k\">when</span> y\n  <span class=\"c\"># something when y</span>\n<span
+        class=\"k\">end</span></code></pre>\n\n<p>Is equivalent to this code:</p>\n\n<pre><code><span
+        class=\"k\">if</span> x <span class=\"o\">===</span> value\n  <span class=\"c\">#
+        something when x</span>\n<span class=\"k\">elsif</span> y <span class=\"o\">===</span>
+        value\n  <span class=\"c\"># something when y</span>\n<span class=\"k\">end</span></code></pre>\n\n<p>Object
+        simply implements <code><a href=\"Class.html#===(other)-instance-method\">#===</a></code>
+        by invoking <code><a href=\"Class.html#==(other:Class):Bool-instance-method\">#==</a></code>,
+        but subclasses\n(notably <code><a href=\"Regex.html\">Regex</a></code>) can
+        override it to provide meaningful case-equality semantics.</p>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L97\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\">(other:T.class)forallT-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>></strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T\n\n
+        \       <a class=\"method-permalink\" href=\"#%3E(other:T.class)forallT-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>.</p>\n\n<pre><code><span
+        class=\"t\">Number</span> <span class=\"o\">&gt;</span> <span class=\"t\">Int32</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Number</span> <span
+        class=\"o\">&gt;</span> <span class=\"t\">Number</span> <span class=\"c\">#
+        =&gt; false</span>\n<span class=\"t\">Number</span> <span class=\"o\">&gt;</span>
+        <span class=\"t\">Object</span> <span class=\"c\"># =&gt; false</span></code></pre>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L57\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\">=(other:T.class)forallT-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>>=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T\n\n
+        \       <a class=\"method-permalink\" href=\"#%3E=(other:T.class)forallT-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>, or is equal\nto
+        <code>self</code>.</p>\n\n<pre><code><span class=\"t\">Number</span> <span
+        class=\"o\">&gt;=</span> <span class=\"t\">Int32</span>  <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Number</span> <span class=\"o\">&gt;=</span>
+        <span class=\"t\">Number</span> <span class=\"c\"># =&gt; true</span>\n<span
+        class=\"t\">Number</span> <span class=\"o\">&gt;=</span> <span class=\"t\">Object</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L71\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"clone-class-method\">\n      <div class=\"signature\">\n
+        \       \n        def self.<strong>clone</strong>\n\n        <a class=\"method-permalink\"
+        href=\"#clone-class-method\">#</a>\n      </div>\n      \n      <br/>\n      <div>\n
+        \       \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L156\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"dup-class-method\">\n      <div class=\"signature\">\n
+        \       \n        def self.<strong>dup</strong>\n\n        <a class=\"method-permalink\"
+        href=\"#dup-class-method\">#</a>\n      </div>\n      \n        <div class=\"doc\">\n
+        \         \n            <div class=\"doc-inherited\">\n              Description
+        copied from struct <a href=\"Value.html\">Value</a>\n            </div>\n
+        \         \n          <p>Returns a shallow copy of this object.</p>\n\n<p>Because
+        <code><a href=\"Value.html\">Value</a></code> is a value type, this method
+        returns <code>self</code>,\nwhich already involves a shallow copy of this
+        object because\nvalue types are passed by value.</p>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L152\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"hash(hasher)-class-method\">\n      <div
+        class=\"signature\">\n        \n        def self.<strong>hash</strong>(hasher)\n\n
+        \       <a class=\"method-permalink\" href=\"#hash(hasher)-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>See
+        <code><a href=\"Object.html#hash(hasher)-instance-method\">Object#hash(hasher)</a></code></p>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L7\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"inspect(io:IO):Nil-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>inspect</strong>(io
+        : <a href=\"IO.html\">IO</a>) : <a href=\"Nil.html\">Nil</a>\n\n        <a
+        class=\"method-permalink\" href=\"#inspect(io:IO):Nil-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Appends a string representation
+        of this object\nto the given <code><a href=\"IO.html\">IO</a></code> object.</p>\n\n<p>Similar
+        to <code><a href=\"Class.html#to_s(io:IO):Nil-instance-method\">#to_s(io)</a></code>,
+        but usually appends more information\nabout this object.\nSee <code><a href=\"Class.html#inspect(io:IO):Nil-instance-method\">#inspect</a></code>.</p>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L2\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"name:String-class-method\">\n      <div
+        class=\"signature\">\n        \n        def self.<strong>name</strong> : <a
+        href=\"String.html\">String</a>\n\n        <a class=\"method-permalink\" href=\"#name:String-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        the name of this class.</p>\n\n<pre><code><span class=\"t\">String</span>.name
+        <span class=\"c\"># =&gt; &quot;String&quot;</span></code></pre>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L106\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"nilable?-class-method\">\n      <div
+        class=\"signature\">\n        \n        def self.<strong>nilable?</strong>\n\n
+        \       <a class=\"method-permalink\" href=\"#nilable?-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        <code>true</code> if this class is <code><a href=\"Nil.html\">Nil</a></code>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span>.nilable? <span class=\"c\"># =&gt; false</span>\n<span
+        class=\"t\">Nil</span>.nilable?   <span class=\"c\"># =&gt; true</span></code></pre>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L144\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"to_s(io:IO):Nil-class-method\">\n      <div
+        class=\"signature\">\n        \n        def self.<strong>to_s</strong>(io
+        : <a href=\"IO.html\">IO</a>) : <a href=\"Nil.html\">Nil</a>\n\n        <a
+        class=\"method-permalink\" href=\"#to_s(io:IO):Nil-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Appends a <code><a href=\"String.html\">String</a></code>
+        representation of this object\nto the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p>\n\n<p>An object must never append itself to the io argument,\nas
+        this will in turn call <code><a href=\"Class.html#to_s(io:IO):Nil-instance-method\">#to_s(io)</a></code>
+        on it.</p>\n        </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L148\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"|(other:U.class)forallU-class-method\">\n
+        \     <div class=\"signature\">\n        \n        def self.<strong>|</strong>(other
+        : <span class=\"t\">U</span>.<span class=\"k\">class</span>) forall U\n\n
+        \       <a class=\"method-permalink\" href=\"#%7C(other:U.class)forallU-class-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        the union type of <code>self</code> and <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">|</span> <span class=\"t\">Char</span>
+        <span class=\"c\"># =&gt; (Int32 | Char)</span></code></pre>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L132\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n\n\n\n
+        \ <h2>\n    <a id=\"instance-method-detail\" class=\"anchor\" href=\"#instance-method-detail\">\n
+        \ <svg class=\"octicon-link\" aria-hidden=\"true\">\n    <use href=\"#octicon-link\"/>\n
+        \ </svg>\n</a>\n    Instance Method Detail\n  </h2>\n  \n    <div class=\"entry-detail\"
+        id=\"T.class):BoolforallT-instance-method\">\n      <div class=\"signature\">\n
+        \       \n        def <strong><</strong>(other : <span class=\"t\">T</span>.<span
+        class=\"k\">class</span>) : <a href=\"Bool.html\">Bool</a> forall T\n\n        <a
+        class=\"method-permalink\" href=\"#T.class):BoolforallT-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class inherits or includes <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;</span> <span class=\"t\">Number</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">&lt;</span> <span class=\"t\">Value</span>   <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Int32</span> <span class=\"o\">&lt;</span>
+        <span class=\"t\">Int32</span>   <span class=\"c\"># =&gt; false</span>\n<span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;=</span> <span class=\"t\">String</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L29\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"T.class):BoolforallT-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong><=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) : <a href=\"Bool.html\">Bool</a>
+        forall T\n\n        <a class=\"method-permalink\" href=\"#T.class):BoolforallT-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class inherits or includes <em>other</em>, or\nis equal to <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;</span> <span class=\"t\">Number</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">&lt;</span> <span class=\"t\">Value</span>   <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Int32</span> <span class=\"o\">&lt;=</span>
+        <span class=\"t\">Int32</span>  <span class=\"c\"># =&gt; true</span>\n<span
+        class=\"t\">Int32</span> <span class=\"o\">&lt;=</span> <span class=\"t\">String</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L44\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"==(other:Class):Bool-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>==</strong>(other
+        : <a href=\"Class.html\">Class</a>) : <a href=\"Bool.html\">Bool</a>\n\n        <a
+        class=\"method-permalink\" href=\"#==(other:Class):Bool-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether this class is the same as <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">==</span> <span class=\"t\">Int32</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Int32</span> <span
+        class=\"o\">==</span> <span class=\"t\">String</span> <span class=\"c\">#
+        =&gt; false</span></code></pre>\n        </div>\n      \n      <br/>\n      <div>\n
+        \       \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L17\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"===(other)-instance-method\">\n      <div
+        class=\"signature\">\n        \n        def <strong>===</strong>(other)\n\n
+        \       <a class=\"method-permalink\" href=\"#===(other)-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Case equality.</p>\n\n<p>The
+        <code><a href=\"Class.html#===(other)-instance-method\">#===</a></code> method
+        is used in a <code>case ... when ... end</code> expression.</p>\n\n<p>For
+        example, this code:</p>\n\n<pre><code><span class=\"k\">case</span> value\n<span
+        class=\"k\">when</span> x\n  <span class=\"c\"># something when x</span>\n<span
+        class=\"k\">when</span> y\n  <span class=\"c\"># something when y</span>\n<span
+        class=\"k\">end</span></code></pre>\n\n<p>Is equivalent to this code:</p>\n\n<pre><code><span
+        class=\"k\">if</span> x <span class=\"o\">===</span> value\n  <span class=\"c\">#
+        something when x</span>\n<span class=\"k\">elsif</span> y <span class=\"o\">===</span>
+        value\n  <span class=\"c\"># something when y</span>\n<span class=\"k\">end</span></code></pre>\n\n<p>Object
+        simply implements <code><a href=\"Class.html#===(other)-instance-method\">#===</a></code>
+        by invoking <code><a href=\"Class.html#==(other:Class):Bool-instance-method\">#==</a></code>,
+        but subclasses\n(notably <code><a href=\"Regex.html\">Regex</a></code>) can
+        override it to provide meaningful case-equality semantics.</p>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L97\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\">(other:T.class)forallT-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>></strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T\n\n
+        \       <a class=\"method-permalink\" href=\"#%3E(other:T.class)forallT-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>.</p>\n\n<pre><code><span
+        class=\"t\">Number</span> <span class=\"o\">&gt;</span> <span class=\"t\">Int32</span>
+        \ <span class=\"c\"># =&gt; true</span>\n<span class=\"t\">Number</span> <span
+        class=\"o\">&gt;</span> <span class=\"t\">Number</span> <span class=\"c\">#
+        =&gt; false</span>\n<span class=\"t\">Number</span> <span class=\"o\">&gt;</span>
+        <span class=\"t\">Object</span> <span class=\"c\"># =&gt; false</span></code></pre>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L57\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\">=(other:T.class)forallT-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>>=</strong>(other
+        : <span class=\"t\">T</span>.<span class=\"k\">class</span>) forall T\n\n
+        \       <a class=\"method-permalink\" href=\"#%3E=(other:T.class)forallT-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        whether <em>other</em> inherits or includes <code>self</code>, or is equal\nto
+        <code>self</code>.</p>\n\n<pre><code><span class=\"t\">Number</span> <span
+        class=\"o\">&gt;=</span> <span class=\"t\">Int32</span>  <span class=\"c\">#
+        =&gt; true</span>\n<span class=\"t\">Number</span> <span class=\"o\">&gt;=</span>
+        <span class=\"t\">Number</span> <span class=\"c\"># =&gt; true</span>\n<span
+        class=\"t\">Number</span> <span class=\"o\">&gt;=</span> <span class=\"t\">Object</span>
+        <span class=\"c\"># =&gt; false</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L71\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"cast(other):self-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>cast</strong>(other)
+        : <span class=\"k\">self</span>\n\n        <a class=\"method-permalink\" href=\"#cast(other):self-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Casts
+        <em>other</em> to this class.</p>\n\n<p>This is the same as using <code>as</code>,
+        but allows the class to be passed around as\nan argument. See the\n<a href=\"//crystal-lang.org/docs/syntax_and_semantics/as.html\"
+        target=\"_blank\">documentation on as</a>\nfor more information.</p>\n\n<pre><code>klass
+        <span class=\"o\">=</span> <span class=\"t\">Int32</span>\nnumber <span class=\"o\">=</span>
+        [<span class=\"n\">99</span>, <span class=\"s\">&quot;str&quot;</span>][<span
+        class=\"n\">0</span>]\n<span class=\"k\">typeof</span>(number)             <span
+        class=\"c\"># =&gt; (String | Int32)</span>\n<span class=\"k\">typeof</span>(klass.cast(number))
+        <span class=\"c\"># =&gt; Int32</span></code></pre>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L123\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"clone-instance-method\">\n      <div
+        class=\"signature\">\n        \n        def <strong>clone</strong>\n\n        <a
+        class=\"method-permalink\" href=\"#clone-instance-method\">#</a>\n      </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L156\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"dup-instance-method\">\n      <div class=\"signature\">\n
+        \       \n        def <strong>dup</strong>\n\n        <a class=\"method-permalink\"
+        href=\"#dup-instance-method\">#</a>\n      </div>\n      \n        <div class=\"doc\">\n
+        \         \n            <div class=\"doc-inherited\">\n              Description
+        copied from struct <a href=\"Value.html\">Value</a>\n            </div>\n
+        \         \n          <p>Returns a shallow copy of this object.</p>\n\n<p>Because
+        <code><a href=\"Value.html\">Value</a></code> is a value type, this method
+        returns <code>self</code>,\nwhich already involves a shallow copy of this
+        object because\nvalue types are passed by value.</p>\n        </div>\n      \n
+        \     <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L152\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"hash(hasher)-instance-method\">\n      <div
+        class=\"signature\">\n        \n        def <strong>hash</strong>(hasher)\n\n
+        \       <a class=\"method-permalink\" href=\"#hash(hasher)-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>See
+        <code><a href=\"Object.html#hash(hasher)-instance-method\">Object#hash(hasher)</a></code></p>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L7\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"inspect(io:IO):Nil-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>inspect</strong>(io
+        : <a href=\"IO.html\">IO</a>) : <a href=\"Nil.html\">Nil</a>\n\n        <a
+        class=\"method-permalink\" href=\"#inspect(io:IO):Nil-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Appends a string representation
+        of this object\nto the given <code><a href=\"IO.html\">IO</a></code> object.</p>\n\n<p>Similar
+        to <code><a href=\"Class.html#to_s(io:IO):Nil-instance-method\">#to_s(io)</a></code>,
+        but usually appends more information\nabout this object.\nSee <code><a href=\"Class.html#inspect(io:IO):Nil-instance-method\">#inspect</a></code>.</p>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L2\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"name:String-instance-method\">\n      <div
+        class=\"signature\">\n        \n        def <strong>name</strong> : <a href=\"String.html\">String</a>\n\n
+        \       <a class=\"method-permalink\" href=\"#name:String-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        the name of this class.</p>\n\n<pre><code><span class=\"t\">String</span>.name
+        <span class=\"c\"># =&gt; &quot;String&quot;</span></code></pre>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L106\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"nilable?-instance-method\">\n      <div
+        class=\"signature\">\n        \n        def <strong>nilable?</strong>\n\n
+        \       <a class=\"method-permalink\" href=\"#nilable?-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        <code>true</code> if this class is <code><a href=\"Nil.html\">Nil</a></code>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span>.nilable? <span class=\"c\"># =&gt; false</span>\n<span
+        class=\"t\">Nil</span>.nilable?   <span class=\"c\"># =&gt; true</span></code></pre>\n
+        \       </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L144\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"to_s(io:IO):Nil-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>to_s</strong>(io
+        : <a href=\"IO.html\">IO</a>) : <a href=\"Nil.html\">Nil</a>\n\n        <a
+        class=\"method-permalink\" href=\"#to_s(io:IO):Nil-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n            <div
+        class=\"doc-inherited\">\n              Description copied from class <a href=\"Object.html\">Object</a>\n
+        \           </div>\n          \n          <p>Appends a <code><a href=\"String.html\">String</a></code>
+        representation of this object\nto the given <code><a href=\"IO.html\">IO</a></code>
+        object.</p>\n\n<p>An object must never append itself to the io argument,\nas
+        this will in turn call <code><a href=\"Class.html#to_s(io:IO):Nil-instance-method\">#to_s(io)</a></code>
+        on it.</p>\n        </div>\n      \n      <br/>\n      <div>\n        \n          [<a
+        href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L148\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n
+        \   <div class=\"entry-detail\" id=\"|(other:U.class)forallU-instance-method\">\n
+        \     <div class=\"signature\">\n        \n        def <strong>|</strong>(other
+        : <span class=\"t\">U</span>.<span class=\"k\">class</span>) forall U\n\n
+        \       <a class=\"method-permalink\" href=\"#%7C(other:U.class)forallU-instance-method\">#</a>\n
+        \     </div>\n      \n        <div class=\"doc\">\n          \n          <p>Returns
+        the union type of <code>self</code> and <em>other</em>.</p>\n\n<pre><code><span
+        class=\"t\">Int32</span> <span class=\"o\">|</span> <span class=\"t\">Char</span>
+        <span class=\"c\"># =&gt; (Int32 | Char)</span></code></pre>\n        </div>\n
+        \     \n      <br/>\n      <div>\n        \n          [<a href=\"https://github.com/crystal-lang/crystal/blob/e68767e4937a542b65bcec6f5d12b52dff8c701b/src/class.cr#L132\"
+        target=\"_blank\">View source</a>]\n        \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n\n</body>\n</html>\n"
+    http_version: null
+  recorded_at: Fri, 08 May 2020 09:31:16 GMT
+recorded_with: VCR 5.1.0
